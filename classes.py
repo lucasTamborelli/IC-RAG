@@ -15,7 +15,7 @@ from pypdf import PdfReader
 from pinecone import Pinecone
 from collections import defaultdict
 from ollama import Client
-
+import glob
 
 from dotenv import load_dotenv
 
