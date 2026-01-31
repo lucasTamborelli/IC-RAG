@@ -4,14 +4,18 @@ from classes import *
 
 if __name__ == "__main__":
     
-    arquivo = 'doc_ele01.pdf'
+    directory = './IPRdocuments'
+    documentList = glob.glob(os.path.join(directory, '*.pdf'))
+
+    for archive in documentList:
+        document = Treater(archive)
+        text = document.extract_text()
+        if text:
+            chunks = document.split_chunks(text, chunk_size = 5000, overlap = 1000)
+
     llm = LLM_cloud('gpt-oss:120b-cloud', temperature = 0.1)
 
-    documento = Treater(arquivo)
-    text = documento.extract_text()
-    chunks = documento.split_chunks(text, chunk_size = 5000, overlap = 1000)
-   
-    query = 'Quantas disciplinas são cursadas no 1o Ano Profissional e qual a carga horária semanal teórica'
+    query = 'Qual ação o coordenador deve tomar se a proposta técnica NÃO for aprovada pela empresa?'
 
 
     semantic_context = semantic_search(index_name='teste', text_chunks=chunks, query=query, top_k = 5, printer= False)
