@@ -1,7 +1,6 @@
 from classes import *
 
 
-
 if __name__ == "__main__":
     
     directory = './IPRdocuments'
@@ -17,16 +16,9 @@ if __name__ == "__main__":
 
     query = 'Qual ação o coordenador deve tomar se a proposta técnica NÃO for aprovada pela empresa?'
 
-
-    semantic_context = semantic_search(index_name='teste', text_chunks=chunks, query=query, top_k = 5, printer= False)
-    # 1000, 200
-
-    keyword_context = keyword_search(index_name='teste22', text_chunks=chunks, query=query, top_k = 5, printer= False)
-    # 1000, 400 # overlap maior
-
-
+    semantic_context = semantic_search(index_name='teste', text_chunks=chunks, query=query, top_k = 5, printer= False) # 1000, 200
+    keyword_context = keyword_search(index_name='teste22', text_chunks=chunks, query=query, top_k = 5, printer= False) # 1000, 400
     hybrid_context = hybrid_search(keyword_context, semantic_context, sparse_weight = 0.6, top_k = 3, printer = False)
-
 
     answer = llm.response(query, hybrid_context)
     print("\n\n=============================\n\n")
