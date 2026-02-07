@@ -16,6 +16,7 @@ from pinecone import Pinecone
 from collections import defaultdict
 from ollama import Client
 import glob
+import streamlit as sl
 
 from dotenv import load_dotenv
 
@@ -213,4 +214,3 @@ def hybrid_search(dense_result, sparse_result, sparse_weight, top_k, printer):
         if printer: 
             print(f"id: {hit['_id']} | score: {hit['score']:.2f} | text: {hit['text'][:500]}...")
     return top_k_final
-
