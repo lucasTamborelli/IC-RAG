@@ -1,6 +1,8 @@
 from pinecone import Pinecone
 from collections import defaultdict
 from dotenv import load_dotenv
+import tiktoken
+from typing import *
 import os
 import csv
 import streamlit as sl
@@ -131,7 +133,7 @@ def save_feedback(arq, query, answer):
         writer.writerow([query, answer, score])
     print(f"Answers saved {score}")
 
-def render_tab(query, tab, type, answer):
+def render_tab(query, tab, type, answer, tokens):
     with tab:
         sl.markdown(f"**Resposta ({type}):**")
         sl.write(answer)
@@ -144,3 +146,10 @@ def render_tab(query, tab, type, answer):
             on_change=save_feedback,
             args=('feedback.csv', query, answer, type)
         )
+        sl.text(f"Tokens: {tokens}")
+
+def n_tokens(input: str, output: str, model_name: str):
+    enc = tiktoken.get_encoding(model_name)
+    tokens_in = enc.encode(input)
+    tokens_out = enc.encode(output)
+    return [len(tokens_in), len(tokens_out)]
