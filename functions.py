@@ -130,3 +130,17 @@ def save_feedback(arq, query, answer):
             writer.writerow(['Pergunta', 'Resposta', 'Avaliacao'])
         writer.writerow([query, answer, score])
     print(f"Answers saved {score}")
+
+def render_tab(query, tab, type, answer):
+    with tab:
+        sl.markdown(f"**Resposta ({type}):**")
+        sl.write(answer)
+        sl.write("---")
+        sl.radio(
+            f'Avalie a resposta {type}:', 
+            ("Ruim", "Médio", "Bom"),
+            key=f'eval_{type}', 
+            index=None,
+            on_change=save_feedback,
+            args=('feedback.csv', query, answer, type)
+        )
