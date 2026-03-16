@@ -3,20 +3,23 @@ from langchain_ollama import ChatOllama
 from pypdf import PdfReader
 from ollama import Client
 import streamlit as sl
+from langchain_google_genai import ChatGoogleGenerativeAI
 
 os.environ["USER_AGENT"] = "rag"
 
-if "OLLAMA_HOST_URL" in sl.secrets:
-    ollama_key = sl.secrets["OLLAMA_API_KEY"]
+if "GEMINI_API_KEY" in sl.secrets:
+    gemini_key = sl.secrets["GEMINI_API_KEY"]
 else:
-    ollama_key = os.getenv("OLLAMA_API_KEY")
+    gemini_key = os.getenv("GEMINI_API_KEY")
 
 class LLM_cloud():
     def __init__(self, model, temperature):
         self.model = model
         self.temp = temperature
-        self.client = Client(
-            headers={"Authorization": f"Bearer {ollama_key}"}
+        self.model = ChatGoogleGenerativeAI(
+            model=model, 
+            temperature=temperature, 
+            google_api_key=gemini_key
         )
         # model = 'gpt-oss:120b-cloud'
 

@@ -15,7 +15,7 @@ if __name__ == "__main__":
                 if text:
                         chunks = document.split_chunks(text, chunk_size = 5000, overlap = 1000)
                         
-        llm = LLM_cloud('gpt-oss:120b-cloud', temperature = 0.1)
+        llm = LLM_cloud(model="gemini-1.5-flash", temperature = 0.1)
 
 
         if 'resposta_llm' not in sl.session_state: 
