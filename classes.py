@@ -43,8 +43,8 @@ class LLM_cloud():
                 "content": rag_prompt,
             }
         ]
-        response = self.client.chat(self.model, messages=messages)
-        return response["message"]["content"]
+        response = self.model.invoke(messages)
+        return response.content
 
 
 
