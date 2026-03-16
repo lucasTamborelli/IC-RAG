@@ -2,15 +2,22 @@ import os
 from langchain_ollama import ChatOllama
 from pypdf import PdfReader
 from ollama import Client
-
+import streamlit as sl
 
 os.environ["USER_AGENT"] = "rag"
+
+if "OLLAMA_HOST_URL" in sl.secrets:
+    ollama_key = sl.secrets["OLLAMA_API_KEY"]
+else:
+    ollama_key = os.getenv("OLLAMA_API_KEY")
 
 class LLM_cloud():
     def __init__(self, model, temperature):
         self.model = model
         self.temp = temperature
-        self.client = Client()
+        self.client = Client(
+            headers={"Authorization": f"Bearer {ollama_key}"}
+        )
         # model = 'gpt-oss:120b-cloud'
 
     def prompt(self, query, context):
