@@ -8,7 +8,10 @@ import streamlit as sl
 import json
 
 load_dotenv()
-keyPinecone = os.getenv("API_KEY_PINECONE")
+if "API_KEY_PINECONE" in sl.secrets:
+    keyPinecone = sl.secrets["API_KEY_PINECONE"]
+else:
+    keyPinecone = os.getenv("API_KEY_PINECONE")
 
 def semantic_search(index_name, text_chunks, query, top_k, printer):
 
