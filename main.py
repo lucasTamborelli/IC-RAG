@@ -8,14 +8,17 @@ if __name__ == "__main__":
         
         directory = './IPRdocuments'
         documentList = glob.glob(os.path.join(directory, '*.pdf'))
-
+        
+        chunks = []
+        
         for archive in documentList:
                 document = Treater(archive)
                 text = document.extract_text()
                 if text:
-                        chunks = document.split_chunks(text, chunk_size = 5000, overlap = 1000)
+                        pdf_chunks = document.split_chunks(text, chunk_size = 5000, overlap = 1000)
+                        chunks.extend(pdf_chunks)
                         
-        llm = LLM_cloud(model="gemini-2.5-pro", temperature = 0.1)
+        llm = LLM_cloud(model="gemini-2.5-flash", temperature = 0.1)
 
 
         if 'resposta_llm' not in sl.session_state: 
