@@ -8,11 +8,13 @@ if __name__ == "__main__":
         directory = './IPRdocuments'
         documentList = glob.glob(os.path.join(directory, '*.pdf'))
         
+        chunks = []
         for archive in documentList:
                 document = Treater(archive)
                 text = document.extract_text()
                 if text:
-                        chunks = document.split_chunks(text, chunk_size = 5000, overlap = 1000)
+                        new_chunks = document.split_chunks(text, chunk_size = 5000, overlap = 1000)
+                        chunks.extend(new_chunks)
                         
         llm = LLM_cloud(model="gpt-4o", temperature = 0.1)
 
