@@ -3,9 +3,12 @@ from collections import defaultdict
 from dotenv import load_dotenv
 import tiktoken
 from typing import *
+import pickle
 import os
 import streamlit as sl
 import json
+from langchain_community.vectorstores import FAISS
+from langchain_openai import OpenAIEmbeddings
 
 load_dotenv()
 pinecone_key = os.getenv("API_KEY_PINECONE")
@@ -163,3 +166,14 @@ def n_tokens(input: str, output: str, model_name: str):
 	tokens_in = enc.encode(input)
 	tokens_out = enc.encode(output)
 	return [len(tokens_in), len(tokens_out)]
+
+
+@sl.cache_resource
+def load_databases():
+        embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+        faiss_db = FAISS.load_local("vector_db/faiss_index", embeddings, allow_dangerous_deserialization=True)
+        
+        with open("vector_db/bm25_retriever.pkl", "rb") as f:
+                bm25_retriever = pickle.load(f)
+                
+        return faiss_db, bm25_retriever

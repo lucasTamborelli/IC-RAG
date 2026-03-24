@@ -48,7 +48,7 @@ class Treater():
         self.file = file
 
     def extract_text(self):
-        return "".join([p.extract_text() for p in PdfReader(self.file).pages])
+        return "\n".join([p.extract_text() for p in PdfReader(self.file).pages])
     
     # json estruturado1
 

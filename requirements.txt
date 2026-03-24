@@ -10,3 +10,4 @@ langchain-ollama
 ollama
 pinecone
 langchain_openai
+rank_bm25
