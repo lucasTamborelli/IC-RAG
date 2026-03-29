@@ -6,8 +6,5 @@ streamlit==1.37.0
 beautifulsoup4==4.12.3
 faiss-cpu
 pypdf==4.2.0
-langchain-ollama
-ollama
-pinecone
-langchain_openai
+tiktoken
 rank_bm25

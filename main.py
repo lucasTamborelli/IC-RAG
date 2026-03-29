@@ -9,7 +9,7 @@ if __name__ == "__main__":
         llm = LLM_cloud(model="gpt-4o", temperature = 0.1)
         
         try: faiss_db, bm25_retriever = load_databases()
-        except Exception as e: sl.error("Did not find databases")
+        except Exception as e: sl.error(f"Erro ao carregar databases: {e}")
 
         if 'avaliacoes' not in sl.session_state:
                 sl.session_state.avaliacoes = []
