@@ -28,7 +28,7 @@ if __name__ == "__main__":
                 
                 sem_chunks = semantic_search(faiss_db, query, top_k=3)
                 key_chunks = keyword_search(bm25_retriever, query, top_k=3)
-                hyb_chunks = hybrid_search(faiss_db, bm25_retriever, query, top_k=3)
+                hyb_chunks = hybrid_search(faiss_db, bm25_retriever, query, sparse_weight=0.5, top_k=3)
                 
                 ctx_semantico = "\n\n".join(sem_chunks)
                 ctx_keyword = "\n\n".join(key_chunks)

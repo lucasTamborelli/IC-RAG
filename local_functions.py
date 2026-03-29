@@ -1,3 +1,4 @@
+from collections import defaultdict
 from dotenv import load_dotenv
 import tiktoken
 from typing import *
@@ -29,16 +30,30 @@ def keyword_search(bm25_retriever, query, top_k=3):
         results = bm25_retriever.invoke(query)
         return [doc.page_content for doc in results]
 
-def hybrid_search(faiss_db, bm25_retriever, query, top_k=3):
-        sem_results = semantic_search(faiss_db, query, top_k=top_k)
-        key_results = keyword_search(bm25_retriever, query, top_k=top_k)
-        
-        hybrid_context = []
-        for text in sem_results + key_results:
-                if text not in hybrid_context:
-                        hybrid_context.append(text)
-                        
-        return hybrid_context[:top_k]
+def hybrid_search(faiss_db, bm25_retriever, query, sparse_weight=0.5, top_k=3):
+        sem_scored = faiss_db.similarity_search_with_score(query, k=top_k)
+        bm25_retriever.k = top_k
+        key_results = bm25_retriever.invoke(query)
+
+        final_scores = defaultdict(lambda: {"text": "", "dense": 0.0, "sparse": 0.0})
+
+        for doc, distance in sem_scored:
+                text = doc.page_content
+                final_scores[text]["text"] = text
+                final_scores[text]["dense"] = 1 / (1 + distance)
+
+        for rank, doc in enumerate(key_results):
+                text = doc.page_content
+                final_scores[text]["text"] = text
+                final_scores[text]["sparse"] = (top_k - rank) / top_k
+
+        final = []
+        for text, vals in final_scores.items():
+                combined = sparse_weight * vals["sparse"] + (1 - sparse_weight) * vals["dense"]
+                final.append({"text": vals["text"], "score": combined})
+
+        final.sort(key=lambda x: x["score"], reverse=True)
+        return [item["text"] for item in final[:top_k]]
 
 def render_tab(type, answer, tokens):
 	sl.markdown(f"**Resposta:**")
