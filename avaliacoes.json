@@ -1,0 +1,62 @@
+[
+  {
+    "Pergunta": "Qual é a finalidade principal da norma NPA-ITA-070:2024?",
+    "Tipo": "Semantic",
+    "Resposta": "A finalidade principal da norma NPA-ITA-070:2024 é descrever e normatizar o processo de proposição e análise de projetos institucionais de ensino, pesquisa, extensão, estímulo à inovação e desenvolvimento institucional, científico e tecnológico, com ênfase nos projetos a serem desenvolvidos conjuntamente com entidades/organizações do setor privado.",
+    "Avaliacao": "4"
+  },
+  {
+    "Pergunta": "Qual é a finalidade principal da norma NPA-ITA-070:2024?",
+    "Tipo": "Keyword",
+    "Resposta": "A norma NPA-ITA-070:2024 não é mencionada diretamente no contexto fornecido, portanto, não é possível determinar sua finalidade principal com base nas informações disponíveis. O contexto discute a importância das Instituições Científicas, Tecnológicas e de Inovação (ICTs) e suas atividades relacionadas à inovação, mas não faz referência específica à norma NPA-ITA-070:2024. Para responder à pergunta, seria necessário ter acesso ao texto ou descrição específica dessa norma.",
+    "Avaliacao": "1 (Muito Ruim)"
+  },
+  {
+    "Pergunta": "Qual é a finalidade principal da norma NPA-ITA-070:2024?",
+    "Tipo": "Hybrid",
+    "Resposta": "A finalidade principal da norma NPA-ITA-070:2024 é descrever e normatizar o processo de proposição e análise de projetos institucionais de ensino, pesquisa, extensão, estímulo à inovação e desenvolvimento institucional, científico e tecnológico, com ênfase nos projetos a serem desenvolvidos conjuntamente com entidades/organizações do setor privado.",
+    "Avaliacao": "5 (Muito Bom)"
+  },
+  {
+    "Pergunta": "'Qual fórum assessora o Pró-Reitor de Pesquisa e Relacionamento Institucional em questões de propriedade intelectual?'",
+    "Tipo": "Semantic",
+    "Resposta": "O fórum que assessora o Pró-Reitor de Pesquisa e Relacionamento Institucional em questões de propriedade intelectual é o CPRI (Comitê de Propriedade Intelectual).",
+    "Avaliacao": "3"
+  },
+  {
+    "Pergunta": "'Qual fórum assessora o Pró-Reitor de Pesquisa e Relacionamento Institucional em questões de propriedade intelectual?'",
+    "Tipo": "Keyword",
+    "Resposta": "O fórum que assessora o Pró-Reitor de Pesquisa e Relacionamento Institucional em questões de propriedade intelectual é o Conselho de Projetos e Relacionamento Institucional (CPRI).",
+    "Avaliacao": "4"
+  },
+  {
+    "Pergunta": "'Qual fórum assessora o Pró-Reitor de Pesquisa e Relacionamento Institucional em questões de propriedade intelectual?'",
+    "Tipo": "Hybrid",
+    "Resposta": "O fórum que assessora o Pró-Reitor de Pesquisa e Relacionamento Institucional em questões de propriedade intelectual é o CPRI (Comitê de Propriedade Intelectual).",
+    "Avaliacao": "3"
+  },
+  {
+    "Pergunta": "'Qual fórum assessora o Pró-Reitor de Pesquisa e Relacionamento Institucional em questões de propriedade intelectual?'",
+    "Tipo": "Semantic",
+    "Resposta": "O fórum que assessora o Pró-Reitor de Pesquisa e Relacionamento Institucional em questões de propriedade intelectual é o CPRI (Comitê de Propriedade Intelectual).",
+    "Avaliacao": "5 (Muito Bom)",
+    "Tokens_input": 2426,
+    "Tokens_output": 38
+  },
+  {
+    "Pergunta": "'Qual fórum assessora o Pró-Reitor de Pesquisa e Relacionamento Institucional em questões de propriedade intelectual?'",
+    "Tipo": "Keyword",
+    "Resposta": "O fórum que assessora o Pró-Reitor de Pesquisa e Relacionamento Institucional em questões de propriedade intelectual é o Conselho de Projetos e Relacionamento Institucional (CPRI).",
+    "Avaliacao": "3",
+    "Tokens_input": 4359,
+    "Tokens_output": 38
+  },
+  {
+    "Pergunta": "'Qual fórum assessora o Pró-Reitor de Pesquisa e Relacionamento Institucional em questões de propriedade intelectual?'",
+    "Tipo": "Hybrid",
+    "Resposta": "O fórum que assessora o Pró-Reitor de Pesquisa e Relacionamento Institucional em questões de propriedade intelectual é o CPRI (Comitê de Propriedade Intelectual).",
+    "Avaliacao": "1 (Muito Ruim)",
+    "Tokens_input": 2426,
+    "Tokens_output": 38
+  }
+]

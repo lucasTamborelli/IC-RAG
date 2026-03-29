@@ -40,39 +40,9 @@ def hybrid_search(faiss_db, bm25_retriever, query, top_k=3):
                         
         return hybrid_context[:top_k]
 
-def save_feedback(query, answer, type):
-	score = sl.session_state.get(f'avaliacao_{type}')
-	chave = (query, type, score)
-	if chave in sl.session_state.avaliacoes_salvas:
-		return
-	sl.session_state.avaliacoes_salvas.add(chave)
-	feedback = {
-		"Pergunta": query,
-		"Tipo": type,
-		"Resposta": answer,
-		"Avaliacao": score
-	}
-	sl.session_state.avaliacoes.append(feedback)
-
-@sl.fragment
-def render_tab(query, type, answer, tokens):
-	sl.markdown(f"**Tipo de resposta:** {type}")
+def render_tab(type, answer, tokens):
 	sl.markdown(f"**Resposta:**")
 	sl.write(answer)
-	sl.write("---")
-	
-	avaliacao = sl.radio(
-		f'Avalie a resposta {type}:', 
-		("1 (Muito Ruim)", "2", "3", "4", "5 (Muito Bom)"),
-		key=f'eval_{type}', 
-		index=None
-	)
-	
-	if avaliacao:
-		sl.session_state[f'avaliacao_{type}'] = avaliacao
-		sl.success("Avaliação registrada!")
-		save_feedback(query, answer, type)
-
 	sl.text(f"Tokens: {tokens}")
 
 def n_tokens(input: str, output: str, model_name: str):
