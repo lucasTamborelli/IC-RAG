@@ -21,6 +21,8 @@ if __name__ == "__main__":
                 sl.session_state.tokens = {"Semantic": [0, 0], "Keyword": [0, 0], "Hybrid": [0, 0]}
         if 'eval_round' not in sl.session_state:
                 sl.session_state.eval_round = 0
+        if 'observacao' not in sl.session_state:
+                sl.session_state.observacao = ""
 
         query = sl.text_input(label='Pergunta:')
         buscar = sl.button('Buscar') 
@@ -43,6 +45,7 @@ if __name__ == "__main__":
                 sl.session_state.respostas['Hybrid'] = llm.response(query, ctx_hibrido)
                 sl.session_state.tokens['Hybrid'] = n_tokens(llm.prompt(query, ctx_hibrido), sl.session_state.respostas['Hybrid'], "o200k_base")
                 sl.session_state.ultima_query = query
+                sl.session_state.observacao = ""
                 sl.session_state.eval_round += 1
                 
         tab1, tab2, tab3 = sl.tabs(['Semantic', 'Keyword', 'Hybrid'])   
@@ -67,6 +70,15 @@ if __name__ == "__main__":
         with col3:
                 eval_hyb = sl.radio("Hybrid:", opcoes, key=f"eval_Hybrid_{rnd}", index=None)
 
+        sl.write("---")
+        observacao = sl.text_area(
+                "Observações sobre as respostas:",
+                value=sl.session_state.observacao,
+                key=f"obs_{rnd}",
+                placeholder="Escreva aqui o que achou das respostas..."
+        )
+        sl.session_state.observacao = observacao
+
         enviar = sl.button("Enviar avaliações")
         if enviar:
                 todas_preenchidas = all([eval_sem, eval_key, eval_hyb])
@@ -81,7 +93,8 @@ if __name__ == "__main__":
                                         "Resposta": sl.session_state.respostas[method],
                                         "Avaliacao": score,
                                         "Tokens_input": tk[0],
-                                        "Tokens_output": tk[1]
+                                        "Tokens_output": tk[1],
+                                        "Observacao": sl.session_state.observacao
                                 })
                         sl.session_state.eval_round += 1
                         sl.success("Avaliações registradas!")
