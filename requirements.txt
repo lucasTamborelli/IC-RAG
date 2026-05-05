@@ -8,3 +8,5 @@ faiss-cpu
 pypdf
 tiktoken
 rank_bm25
+pymupdf
+langchain-text-splitters
