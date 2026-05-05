@@ -1,8 +1,13 @@
-from classes import *
-from local_functions import *
+from src.ingestion.doc_loader import *
+from src.llm.model import *
+from src.retrieval.database_loader import *
+from src.retrieval.preprocess import *
+from src.retrieval.aux_helpers import *
+from src.retrieval.searchs import *
+from data.db_populator import *
 import streamlit as sl
 import json
-from db_populator import *
+
 
 if __name__ == "__main__":
         

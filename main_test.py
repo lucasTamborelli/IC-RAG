@@ -1,9 +1,16 @@
-from classes import *
-from local_functions import *
-from db_populator import *
+from src.ingestion.doc_loader import *
+from src.llm.model import *
+from src.retrieval.database_loader import *
+from src.retrieval.preprocess import *
+from src.retrieval.aux_helpers import *
+from src.retrieval.searchs import *
 
-### pergunta base de teste: Qual é a finalidade principal da norma NPA-ITA-070:2024?
-# Qual é a finalidade principal da norma NPA ITA - 070 
+### pergunta base de teste: 
+# Qual é a finalidade principal da norma NPA-ITA-070:2024?
+# 'Qual é a finalidade principal da norma NPA-ITA-070:2024?'
+# 'De acordo com a norma, o que define um "Projeto de Ensino"?'
+# 'Qual fórum assessora o Pró-Reitor em questões de propriedade intelectual?'
+# 'Qual ação o coordenador deve tomar se a proposta técnica NÃO for aprovada pela empresa?'
 
 if __name__ == "__main__":
         
