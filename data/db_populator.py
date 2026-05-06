@@ -1,6 +1,10 @@
 import os
+import sys
 import glob
 import pickle
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from dotenv import load_dotenv
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
@@ -9,7 +13,7 @@ from src.retrieval.preprocess import preprocess_pt
 from src.ingestion.doc_loader import Treater
 
 """
-# Roda-se uma unica vez esse .py para popular a base de dados
+Roda-se uma unica vez esse .py para popular a base de dados
 """
 
 load_dotenv()
@@ -37,7 +41,7 @@ if __name__ == "__main__":
         os.makedirs("data/vector_db/faiss_index", exist_ok=True)
 
         # Semantic Index
-        embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+        embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
         faiss_db = FAISS.from_documents(chunks, embeddings)
         faiss_db.save_local("data/vector_db/faiss_index")
         print("FAISS salvo")

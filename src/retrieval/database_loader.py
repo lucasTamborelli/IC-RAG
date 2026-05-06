@@ -4,7 +4,7 @@ from langchain_openai import OpenAIEmbeddings
 
 
 def load_databases():
-        embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+        embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
         faiss_db = FAISS.load_local(
                 "data/vector_db/faiss_index",
                 embeddings,
