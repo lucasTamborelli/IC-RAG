@@ -13,7 +13,7 @@ O objetivo é responder: **qual combinação de modelo de *embedding*, estratég
 
 ## Arquitetura
 
-O sistema divide-se em duas fases: **indexação *offline*** dos PDFs e **consulta *online*** que recupera trechos e gera a resposta.
+Sistema divide-se em duas fases: **indexação *offline*** dos PDFs e **consulta *online*** que recupera trechos e gera a resposta.
 
 ```
                     ┌─────────────────── Fase OFFLINE (indexação) ───────────────────┐
