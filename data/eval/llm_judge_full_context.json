@@ -1,0 +1,1063 @@
+{
+  "summary": {
+    "mode": "full_context_oracle_doc",
+    "n_questions": 28,
+    "scores": {
+      "faithfulness": 4.75,
+      "answer_relevancy": 4.714285714285714,
+      "correctness": 4.392857142857143
+    },
+    "tokens": {
+      "generation_input": 239135,
+      "generation_output": 3919,
+      "judge_input": 254201,
+      "judge_output": 4626,
+      "total_input": 493336,
+      "total_output": 8545,
+      "avg_input_per_question": 17619.14285714286,
+      "avg_output_per_question": 305.17857142857144,
+      "estimated_cost_usd": 1.31879
+    },
+    "corpus": {
+      "context_scope": "oracle_doc"
+    }
+  },
+  "results": [
+    {
+      "id": "q01",
+      "tipo": "factual",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "01-CR-IPR-2025.pdf",
+      "pergunta": "Quem é responsável pela execução e supervisão das atividades do Projeto Institucional?",
+      "resposta": "O responsável pela execução e supervisão das atividades do Projeto Institucional é o Coordenador de Projeto, que é um agente público da ativa vinculado ao ITA, designado como Coordenador Técnico do Projeto Institucional, também referido como \"Gerente de Projeto\".",
+      "resposta_referencia": "O Coordenador de Projeto, também referido como 'Gerente de Projeto'.",
+      "contexto_tokens": 9509,
+      "context_meta": {
+        "documento": "01-CR-IPR-2025.pdf",
+        "chars": 36689,
+        "words": 5398,
+        "tokens": 9496
+      },
+      "tokens": {
+        "generation": {
+          "input": 9591,
+          "output": 53
+        },
+        "judge": {
+          "input": 10028,
+          "output": 163
+        },
+        "total": {
+          "input": 19619,
+          "output": 216
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto recuperado, que afirma explicitamente que o Coordenador de Projeto, também referido como 'Gerente de Projeto', é responsável pela execução e supervisão das atividades do Projeto Institucional.",
+      "answer_relevancy_justificativa": "A resposta é diretamente relevante e completa em relação à pergunta, identificando corretamente o responsável pela execução e supervisão das atividades do Projeto Institucional.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, identificando o Coordenador de Projeto como responsável, conforme indicado no contexto."
+    },
+    {
+      "id": "q02",
+      "tipo": "procedimental",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "01-CR-IPR-2025.pdf",
+      "pergunta": "Quais são as etapas para a participação de membros em projetos de PD&I?",
+      "resposta": "As etapas para a participação de membros em projetos de PD&I, conforme o contexto fornecido, incluem:\n\n1. **Seleção da Equipe Executora**: O Coordenador do Projeto é responsável por selecionar a equipe de trabalho. Isso pode incluir um processo seletivo que envolve a definição do perfil e critérios de seleção do bolsista, entrevistas com candidatos, ampla divulgação nos canais de comunicação internos e/ou externos ao ITA, e divulgação do resultado ao final do processo seletivo.\n\n2. **Assinatura de Termo de Confidencialidade e Reconhecimento de Titularidade**: A participação dos membros na execução do projeto está condicionada à assinatura do Termo de Confidencialidade e Reconhecimento de Titularidade, garantindo a proteção dos resultados gerados.\n\n3. **Previsão no Plano de Trabalho**: A participação deve estar expressamente prevista no respectivo plano de trabalho, contendo a lista da equipe executora, objetivos, metas e atividades a serem desenvolvidas, duração, carga horária, tipo de pagamento (Bolsa ou Adicional Variável), modalidade de bolsa, tipo do beneficiário (Interno ou Externo), bem como seus respectivos valores.\n\n4. **Aprovação pela Pró-Reitoria de Pesquisa e Relacionamento Institucional (IPR)**: A participação deve ser aprovada pela IPR, por meio do Conselho de Pesquisa e Relacionamento Institucional (CPRI).\n\n5. **Conformidade com Limites de Horas**: A participação de servidores vinculados a carreira de Magistério, de Ciência e Tecnologia (C&T), e militares, não pode exceder 8 horas semanais ou 416 horas anuais, e deve ser aprovada pela IPR.\n\n6. **Conformidade com Critérios de Pagamento**: Os pagamentos das bolsas e/ou adicionais variáveis estão atrelados à efetiva disponibilidade do recurso em conta corrente, execução das atividades previstas no Plano de Trabalho, segundo cronograma do projeto.\n\n7. **Chamamento Público para Seleção de Membros \"a definir\"**: Para membros identificados como \"a definir\" no projeto, o Coordenador do Projeto deve realizar um chamamento público para a seleção, garantindo transparência e ampla participação.\n\nEssas etapas garantem que a participação em projetos de PD&I seja organizada, transparente e em conformidade com as normas estabelecidas.",
+      "resposta_referencia": "A participação está condicionada à assinatura do Termo de Confidencialidade e Reconhecimento de Titularidade.",
+      "contexto_tokens": 9509,
+      "context_meta": {
+        "documento": "01-CR-IPR-2025.pdf",
+        "chars": 36689,
+        "words": 5398,
+        "tokens": 9496
+      },
+      "tokens": {
+        "generation": {
+          "input": 9592,
+          "output": 483
+        },
+        "judge": {
+          "input": 10467,
+          "output": 156
+        },
+        "total": {
+          "input": 20059,
+          "output": 639
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 4,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto recuperado, com todas as etapas mencionadas claramente descritas no documento fornecido.",
+      "answer_relevancy_justificativa": "A resposta aborda diretamente a pergunta, listando todas as etapas necessárias para a participação de membros em projetos de PD&I conforme solicitado.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a referência, mas inclui mais detalhes do que a resposta de referência, que menciona apenas a assinatura do Termo de Confidencialidade e Reconhecimento de Titularidade."
+    },
+    {
+      "id": "q03",
+      "tipo": "comparativa",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "01-CR-IPR-2025.pdf",
+      "pergunta": "Qual a diferença entre Celetistas e Autônomos nos projetos do ITA?",
+      "resposta": "A diferença entre Celetistas e Autônomos nos projetos do ITA está relacionada ao tipo de vínculo empregatício e à forma de pagamento. \n\nCeletistas são contratados com base na Consolidação das Leis do Trabalho (CLT), o que implica em um vínculo empregatício formal com a fundação de apoio. Isso inclui benefícios como férias, 13º salário, FGTS, aviso prévio, entre outros. No entanto, essa contratação não pode ser para atividades-fim da Instituição de Ciência e Tecnologia (ICT).\n\nAutônomos, por outro lado, são profissionais contratados para atividades específicas sem vínculo empregatício. Seus pagamentos são feitos por entregas, formalizados através de Recibo de Pagamento de Autônomo (RPA), que é o documento utilizado para formalizar o pagamento a esses profissionais.\n\nPortanto, a principal diferença reside no tipo de vínculo e nos benefícios associados: Celetistas têm um vínculo formal e benefícios trabalhistas, enquanto Autônomos não têm vínculo empregatício e são pagos por entrega de serviços.",
+      "resposta_referencia": "Celetistas têm vínculo empregatício formal com a fundação de apoio, enquanto Autônomos são contratados para atividades específicas sem vínculo empregatício.",
+      "contexto_tokens": 9509,
+      "context_meta": {
+        "documento": "01-CR-IPR-2025.pdf",
+        "chars": 36689,
+        "words": 5398,
+        "tokens": 9496
+      },
+      "tokens": {
+        "generation": {
+          "input": 9593,
+          "output": 217
+        },
+        "judge": {
+          "input": 10211,
+          "output": 146
+        },
+        "total": {
+          "input": 19804,
+          "output": 363
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto recuperado, que descreve claramente as diferenças entre Celetistas e Autônomos nos projetos do ITA.",
+      "answer_relevancy_justificativa": "A resposta aborda diretamente a pergunta, explicando a diferença entre Celetistas e Autônomos nos projetos do ITA.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, descrevendo com precisão as diferenças de vínculo empregatício e forma de pagamento."
+    },
+    {
+      "id": "q04",
+      "tipo": "multi-hop",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "01-CR-IPR-2025.pdf",
+      "pergunta": "Como as Fundações de Apoio contribuem para os Projetos Institucionais do ITA?",
+      "resposta": "As Fundações de Apoio contribuem para os Projetos Institucionais do ITA oferecendo suporte administrativo e financeiro. Elas são responsáveis pela gestão dos projetos institucionais, incluindo a concessão de bolsas, adicionais variáveis e pagamentos de pessoal. As Fundações de Apoio, que são fundações de direito privado sem fins lucrativos, registradas e credenciadas, desempenham um papel crucial na execução de atividades de Pesquisa, Desenvolvimento e Inovação (PD&I), Capacitação, Infraestrutura e Prestação de Serviços Técnicos Especializados, assegurando que os projetos estejam alinhados com as diretrizes e objetivos da política de inovação do ITA.",
+      "resposta_referencia": "Elas oferecem suporte administrativo e financeiro, além de gerenciar a concessão de bolsas e pagamentos de pessoal.",
+      "contexto_tokens": 9509,
+      "context_meta": {
+        "documento": "01-CR-IPR-2025.pdf",
+        "chars": 36689,
+        "words": 5398,
+        "tokens": 9496
+      },
+      "tokens": {
+        "generation": {
+          "input": 9597,
+          "output": 137
+        },
+        "judge": {
+          "input": 10125,
+          "output": 174
+        },
+        "total": {
+          "input": 19722,
+          "output": 311
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto recuperado, que detalha o papel das Fundações de Apoio na gestão administrativa e financeira dos projetos institucionais do ITA, incluindo a concessão de bolsas e pagamentos de pessoal.",
+      "answer_relevancy_justificativa": "A resposta é diretamente relevante e completa em relação à pergunta, abordando como as Fundações de Apoio contribuem para os projetos institucionais do ITA.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, mencionando o suporte administrativo e financeiro, além da gestão de bolsas e pagamentos de pessoal."
+    },
+    {
+      "id": "q05",
+      "tipo": "factual",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "01-CR-IPR-2025.pdf",
+      "pergunta": "Qual é a jurisdição competente para resolver litígios relacionados ao Termo?",
+      "resposta": "A jurisdição competente para resolver litígios relacionados ao Termo é a Justiça Federal de São José dos Campos / SP, conforme indicado na Cláusula Sétima do Termo de Compromisso de Confidencialidade e Reconhecimento de Titularidade de Propriedade Intelectual.",
+      "resposta_referencia": "A Justiça Federal de São José dos Campos / SP.",
+      "contexto_tokens": 9509,
+      "context_meta": {
+        "documento": "01-CR-IPR-2025.pdf",
+        "chars": 36689,
+        "words": 5398,
+        "tokens": 9496
+      },
+      "tokens": {
+        "generation": {
+          "input": 9592,
+          "output": 62
+        },
+        "judge": {
+          "input": 10034,
+          "output": 164
+        },
+        "total": {
+          "input": 19626,
+          "output": 226
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto recuperado, que menciona explicitamente a Justiça Federal de São José dos Campos / SP como a jurisdição competente na Cláusula Sétima do Termo.",
+      "answer_relevancy_justificativa": "A resposta é diretamente relevante e completa em relação à pergunta, abordando exatamente a jurisdição competente para resolver litígios relacionados ao Termo.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, mencionando a Justiça Federal de São José dos Campos / SP como a jurisdição competente."
+    },
+    {
+      "id": "q06",
+      "tipo": "procedimental",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "01-CR-IPR-2025.pdf",
+      "pergunta": "Qual é o procedimento necessário para divulgar pesquisas confidenciais em congressos?",
+      "resposta": "Não encontrei informações específicas sobre o procedimento necessário para divulgar pesquisas confidenciais em congressos no contexto fornecido.",
+      "resposta_referencia": "É necessária a prévia autorização, por escrito, do Coordenador do Projeto ou do Pró-Reitor.",
+      "contexto_tokens": 9509,
+      "context_meta": {
+        "documento": "01-CR-IPR-2025.pdf",
+        "chars": 36689,
+        "words": 5398,
+        "tokens": 9496
+      },
+      "tokens": {
+        "generation": {
+          "input": 9590,
+          "output": 22
+        },
+        "judge": {
+          "input": 10002,
+          "output": 157
+        },
+        "total": {
+          "input": 19592,
+          "output": 179
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 3,
+      "correctness": 3,
+      "faithfulness_justificativa": "A resposta do sistema é inteiramente suportada pelo contexto recuperado, que não contém informações específicas sobre o procedimento necessário para divulgar pesquisas confidenciais em congressos.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta ao indicar que não encontrou informações específicas, mas não fornece detalhes adicionais que poderiam ser inferidos do contexto.",
+      "correctness_justificativa": "A resposta está parcialmente correta, pois reconhece a ausência de informações específicas no contexto, mas não menciona a necessidade de autorização prévia, que é um detalhe importante presente na resposta de referência."
+    },
+    {
+      "id": "q07",
+      "tipo": "comparativa",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "01-CR-IPR-2025.pdf",
+      "pergunta": "Qual é a diferença entre as atividades desenvolvidas pelo Membro da Equipe e uma contraprestação por serviços prestados?",
+      "resposta": "No contexto fornecido, a diferença entre as atividades desenvolvidas pelo Membro da Equipe e uma contraprestação por serviços prestados está relacionada à natureza e ao propósito das atividades. As atividades desenvolvidas pelo Membro da Equipe são descritas como parte de um projeto de pesquisa, desenvolvimento e inovação, e são voltadas para o aperfeiçoamento e aplicação dos conhecimentos adquiridos, conforme mencionado no Anexo IV. Essas atividades não configuram uma contraprestação por serviços prestados, mas sim uma contribuição para o projeto, sem estabelecer vínculo empregatício ou vantagem para o doador, caracterizando-se como uma doação. Por outro lado, uma contraprestação por serviços prestados implicaria um pagamento em troca de serviços específicos realizados, geralmente com um vínculo empregatício ou contratual.",
+      "resposta_referencia": "As atividades são para aperfeiçoamento e aplicação dos conhecimentos adquiridos, não se configurando como contraprestação por serviços.",
+      "contexto_tokens": 9509,
+      "context_meta": {
+        "documento": "01-CR-IPR-2025.pdf",
+        "chars": 36689,
+        "words": 5398,
+        "tokens": 9496
+      },
+      "tokens": {
+        "generation": {
+          "input": 9601,
+          "output": 162
+        },
+        "judge": {
+          "input": 10157,
+          "output": 173
+        },
+        "total": {
+          "input": 19758,
+          "output": 335
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto, que descreve as atividades do Membro da Equipe como parte de um projeto de pesquisa e não como contraprestação por serviços prestados.",
+      "answer_relevancy_justificativa": "A resposta aborda diretamente a diferença entre as atividades do Membro da Equipe e a contraprestação por serviços prestados, respondendo completamente à pergunta.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, explicando que as atividades são para aperfeiçoamento e aplicação dos conhecimentos adquiridos, não configurando contraprestação por serviços."
+    },
+    {
+      "id": "q08",
+      "tipo": "multi-hop",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "01-CR-IPR-2025.pdf",
+      "pergunta": "Quem deve autorizar a divulgação de pesquisas confidenciais e qual é a consequência de violar as condições do Termo?",
+      "resposta": "A autorização para a divulgação de pesquisas confidenciais deve ser obtida por escrito do Coordenador do Projeto ou do Pró-Reitor a que o signatário estiver subordinado. A violação das condições do Termo de Compromisso de Confidencialidade e Reconhecimento de Titularidade de Propriedade Intelectual pode sujeitar o signatário à responsabilização administrativa, civil e criminal.",
+      "resposta_referencia": "O Coordenador do Projeto ou o Pró-Reitor deve autorizar; a violação pode levar à responsabilização administrativa, civil e criminal.",
+      "contexto_tokens": 9509,
+      "context_meta": {
+        "documento": "01-CR-IPR-2025.pdf",
+        "chars": 36689,
+        "words": 5398,
+        "tokens": 9496
+      },
+      "tokens": {
+        "generation": {
+          "input": 9600,
+          "output": 82
+        },
+        "judge": {
+          "input": 10079,
+          "output": 168
+        },
+        "total": {
+          "input": 19679,
+          "output": 250
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto recuperado, que menciona explicitamente que a autorização deve ser obtida do Coordenador do Projeto ou do Pró-Reitor, e que a violação pode levar à responsabilização administrativa, civil e criminal.",
+      "answer_relevancy_justificativa": "A resposta aborda diretamente a pergunta, mencionando quem deve autorizar a divulgação e as consequências da violação, cobrindo todos os aspectos solicitados.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, mencionando os mesmos detalhes sobre autorização e consequências."
+    },
+    {
+      "id": "q09",
+      "tipo": "factual",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "Guia-Pratico-ICTs.pdf",
+      "pergunta": "Qual é a portaria que define a forma de materialização de um projeto institucional da ICT da União?",
+      "resposta": "A portaria que define a forma de materialização de um projeto institucional da ICT da União é a Portaria Interministerial MJ/MPOG nº 1.677/15.",
+      "resposta_referencia": "Portaria Interministerial MJ/MPOG nº 1.677/15",
+      "contexto_tokens": 14141,
+      "context_meta": {
+        "documento": "Guia-Pratico-ICTs.pdf",
+        "chars": 59964,
+        "words": 8923,
+        "tokens": 14131
+      },
+      "tokens": {
+        "generation": {
+          "input": 14229,
+          "output": 37
+        },
+        "judge": {
+          "input": 14651,
+          "output": 191
+        },
+        "total": {
+          "input": 28880,
+          "output": 228
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto recuperado, que menciona explicitamente a Portaria Interministerial MJ/MPOG nº 1.677/15 como a norma que define a forma de materialização de um projeto institucional da ICT da União.",
+      "answer_relevancy_justificativa": "A resposta é diretamente relevante e completa em relação à pergunta, pois identifica corretamente a portaria específica que define a forma de materialização de um projeto institucional da ICT da União.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, mencionando a mesma portaria específica, a Portaria Interministerial MJ/MPOG nº 1.677/15."
+    },
+    {
+      "id": "q10",
+      "tipo": "procedimental",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "Guia-Pratico-ICTs.pdf",
+      "pergunta": "Quais são as etapas básicas de instrução do processo administrativo principal que instrumentaliza o projeto de CT&I da ICT?",
+      "resposta": "As etapas básicas de instrução do processo administrativo principal que instrumentaliza o projeto de CT&I da ICT, conforme o contexto fornecido, são as seguintes:\n\n1. **Descritivo do Projeto**: Inclui informações básicas sobre o que é o projeto, sua finalidade, estimativas de prazo, custos, e a inovação pretendida.\n\n2. **Estudos e Plano de Execução do Projeto**: Detalha como o projeto será executado, incluindo alternativas estudadas, fontes de financiamento, pessoal envolvido, e relações da ICT com terceiros, como contratações de bens e serviços, parcerias, e suporte da fundação de apoio.\n\n3. **Manifestação do Órgão de Apoio à Gestão da Política de Inovação da ICT (NIT)**: Identifica quais objetivos e diretrizes da política de inovação estão relacionados com o projeto e sua forma de execução, além de sugerir métricas para acompanhamento e gestão.\n\n4. **Aprovação do Diretor da ICT Pública**: Autoriza o início da execução do projeto por meio de um ato motivado.\n\nEssas etapas formam a estrutura básica de instrução do processo administrativo principal que instrumentaliza o projeto de CT&I da ICT.",
+      "resposta_referencia": "1º) Descritivo do Projeto, 2º) Estudos e Plano de Execução do projeto, 3º) Manifestação do órgão de apoio à gestão da política de inovação da ICT",
+      "contexto_tokens": 14141,
+      "context_meta": {
+        "documento": "Guia-Pratico-ICTs.pdf",
+        "chars": 59964,
+        "words": 8923,
+        "tokens": 14131
+      },
+      "tokens": {
+        "generation": {
+          "input": 14232,
+          "output": 247
+        },
+        "judge": {
+          "input": 14888,
+          "output": 133
+        },
+        "total": {
+          "input": 29120,
+          "output": 380
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta está inteiramente suportada pelo contexto recuperado, que detalha as etapas do processo administrativo para projetos de CT&I da ICT.",
+      "answer_relevancy_justificativa": "A resposta aborda diretamente a pergunta, listando as etapas básicas do processo administrativo conforme solicitado.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, descrevendo as etapas do processo de forma precisa."
+    },
+    {
+      "id": "q11",
+      "tipo": "comparativa",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "Guia-Pratico-ICTs.pdf",
+      "pergunta": "Qual é a diferença entre o planejamento da execução do projeto e o Plano de Trabalho?",
+      "resposta": "A diferença entre o planejamento da execução do projeto e o Plano de Trabalho está no escopo e na função de cada um dentro do processo de execução de projetos de CT&I (Ciência, Tecnologia e Inovação) das ICTs (Instituições Científicas, Tecnológicas e de Inovação).\n\nO planejamento da execução do projeto refere-se à fase de estudos e definição de como o projeto institucional será executado em sua totalidade. Isso inclui a prospecção das possíveis relações jurídicas, como aquisições de bens ou serviços, parcerias com terceiros, fontes de financiamento, definição dos pesquisadores envolvidos, entre outros aspectos necessários para a implementação do projeto.\n\nPor outro lado, o Plano de Trabalho é um documento específico que instrui as relações jurídicas do tipo convênio ou acordo de parceria. Ele contém informações sobre a execução pontual dessas relações, caso estejam previstas no planejamento da execução do projeto. Portanto, enquanto o planejamento da execução do projeto é mais abrangente e estratégico, o Plano de Trabalho é mais detalhado e específico para cada relação jurídica estabelecida.",
+      "resposta_referencia": "O planejamento da execução do projeto é a fase de estudos e definição de como o projeto será executado, enquanto o Plano de Trabalho instrui as relações jurídicas do tipo convênio ou acordo de parceria.",
+      "contexto_tokens": 14141,
+      "context_meta": {
+        "documento": "Guia-Pratico-ICTs.pdf",
+        "chars": 59964,
+        "words": 8923,
+        "tokens": 14131
+      },
+      "tokens": {
+        "generation": {
+          "input": 14225,
+          "output": 214
+        },
+        "judge": {
+          "input": 14847,
+          "output": 144
+        },
+        "total": {
+          "input": 29072,
+          "output": 358
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto recuperado, que descreve claramente a diferença entre o planejamento da execução do projeto e o Plano de Trabalho.",
+      "answer_relevancy_justificativa": "A resposta aborda diretamente a pergunta, explicando a diferença entre o planejamento da execução do projeto e o Plano de Trabalho.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, explicando adequadamente as funções de cada elemento no contexto de execução de projetos."
+    },
+    {
+      "id": "q12",
+      "tipo": "multi-hop",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "Guia-Pratico-ICTs.pdf",
+      "pergunta": "Qual é o papel do NIT na execução de um projeto institucional da ICT e o que cabe ao Diretor da ICT?",
+      "resposta": "O papel do Núcleo de Inovação Tecnológica (NIT) na execução de um projeto institucional da ICT é apoiar a gestão da política de inovação da ICT. O NIT não se limita a tratar de aspectos de propriedade intelectual, mas auxilia no direcionamento da produção científica e tecnológica da ICT para estimular a inovação no setor produtivo e na sociedade. Ele deve se manifestar formalmente sobre o alinhamento do projeto e sua forma de execução com os objetivos e diretrizes da política de inovação da ICT.\n\nQuanto ao Diretor da ICT, cabe a ele autorizar o início da execução material do projeto, mediante a expedição de um ato motivado. Essa autorização é parte da estrutura básica de formatação do processo administrativo que instrumentaliza o projeto de CT&I.",
+      "resposta_referencia": "O NIT deve se manifestar formalmente sobre os objetivos e diretrizes da política de inovação relacionados ao projeto, enquanto cabe ao Diretor da ICT autorizar o início da execução material do projeto.",
+      "contexto_tokens": 14141,
+      "context_meta": {
+        "documento": "Guia-Pratico-ICTs.pdf",
+        "chars": 59964,
+        "words": 8923,
+        "tokens": 14131
+      },
+      "tokens": {
+        "generation": {
+          "input": 14232,
+          "output": 155
+        },
+        "judge": {
+          "input": 14794,
+          "output": 164
+        },
+        "total": {
+          "input": 29026,
+          "output": 319
+        }
+      },
+      "faithfulness": 4,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta é bem suportada pelo contexto, mencionando o papel do NIT e do Diretor da ICT, mas inclui detalhes adicionais sobre o NIT que não são explicitamente mencionados no contexto recuperado.",
+      "answer_relevancy_justificativa": "A resposta aborda diretamente a pergunta, explicando o papel do NIT e do Diretor da ICT na execução de um projeto institucional.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, mencionando os papéis do NIT e do Diretor da ICT conforme descrito no contexto."
+    },
+    {
+      "id": "q13",
+      "tipo": "factual",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "Guia-Pratico-ICTs.pdf",
+      "pergunta": "Qual é a portaria mencionada para análise e emissão de manifestação jurídica?",
+      "resposta": "A portaria mencionada para análise e emissão de manifestação jurídica é a PORTARIA AGU Nº 14, DE 23 DE JANEIRO DE 2020.",
+      "resposta_referencia": "PORTARIA AGU nº 1.399/09.",
+      "contexto_tokens": 14141,
+      "context_meta": {
+        "documento": "Guia-Pratico-ICTs.pdf",
+        "chars": 59964,
+        "words": 8923,
+        "tokens": 14131
+      },
+      "tokens": {
+        "generation": {
+          "input": 14223,
+          "output": 34
+        },
+        "judge": {
+          "input": 14637,
+          "output": 173
+        },
+        "total": {
+          "input": 28860,
+          "output": 207
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 1,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto recuperado, que menciona explicitamente a PORTARIA AGU Nº 14, DE 23 DE JANEIRO DE 2020, como relevante para a análise e emissão de manifestação jurídica.",
+      "answer_relevancy_justificativa": "A resposta é diretamente relevante e completa em relação à pergunta, identificando corretamente a portaria mencionada para análise e emissão de manifestação jurídica.",
+      "correctness_justificativa": "A resposta está completamente incorreta em relação à resposta de referência, que menciona a PORTARIA AGU nº 1.399/09 como a correta."
+    },
+    {
+      "id": "q14",
+      "tipo": "procedimental",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "Guia-Pratico-ICTs.pdf",
+      "pergunta": "Qual é o procedimento para a apreciação do estado de execução do projeto pela ICT?",
+      "resposta": "O procedimento para a apreciação do estado de execução do projeto pela ICT envolve a análise periódica pelo órgão de apoio à gestão da política de inovação da ICT, que deve emitir um relatório no processo principal com base no método/métrica objetiva de gestão. As alterações recomendadas pelo NIT são submetidas à unidade de assessoramento e consultoria jurídica para apreciação da sua juridicidade, segundo as disposições do regime jurídico de CT&I.",
+      "resposta_referencia": "O órgão de apoio à gestão da política de inovação da ICT deverá apreciar o estado de execução do projeto com base no método/métrica objetiva de gestão e emitir relatório no processo principal.",
+      "contexto_tokens": 14141,
+      "context_meta": {
+        "documento": "Guia-Pratico-ICTs.pdf",
+        "chars": 59964,
+        "words": 8923,
+        "tokens": 14131
+      },
+      "tokens": {
+        "generation": {
+          "input": 14225,
+          "output": 89
+        },
+        "judge": {
+          "input": 14718,
+          "output": 219
+        },
+        "total": {
+          "input": 28943,
+          "output": 308
+        }
+      },
+      "faithfulness": 3,
+      "answer_relevancy": 4,
+      "correctness": 4,
+      "faithfulness_justificativa": "A resposta do sistema menciona a análise periódica e a emissão de um relatório pelo órgão de apoio à gestão da política de inovação da ICT, o que é suportado pelo contexto. No entanto, a menção às alterações recomendadas pelo NIT e sua submissão à unidade de assessoramento jurídico não está claramente suportada pelo contexto recuperado.",
+      "answer_relevancy_justificativa": "A resposta é relevante e aborda o procedimento de apreciação do estado de execução do projeto pela ICT, mas inclui detalhes adicionais que não são diretamente solicitados pela pergunta.",
+      "correctness_justificativa": "A resposta está correta em relação à resposta de referência, mencionando a apreciação do estado de execução do projeto e a emissão de um relatório. No entanto, inclui detalhes adicionais sobre o NIT e a unidade de assessoramento jurídico que não são mencionados na resposta de referência."
+    },
+    {
+      "id": "q15",
+      "tipo": "comparativa",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "Guia-Pratico-ICTs.pdf",
+      "pergunta": "Qual é a diferença entre o uso de modelos jurídicos pela AGU e a análise jurídica do conteúdo?",
+      "resposta": "Não encontrei a informação específica sobre a diferença entre o uso de modelos jurídicos pela AGU e a análise jurídica do conteúdo no contexto fornecido.",
+      "resposta_referencia": "O uso de modelos jurídicos pela AGU não dispensa a análise jurídica do conteúdo, nem vincula a análise ao modelo encaminhado pela ICT.",
+      "contexto_tokens": 14141,
+      "context_meta": {
+        "documento": "Guia-Pratico-ICTs.pdf",
+        "chars": 59964,
+        "words": 8923,
+        "tokens": 14131
+      },
+      "tokens": {
+        "generation": {
+          "input": 14229,
+          "output": 30
+        },
+        "judge": {
+          "input": 14657,
+          "output": 178
+        },
+        "total": {
+          "input": 28886,
+          "output": 208
+        }
+      },
+      "faithfulness": 2,
+      "answer_relevancy": 2,
+      "correctness": 2,
+      "faithfulness_justificativa": "A resposta do sistema não é suportada pelo contexto recuperado, pois o contexto contém informações sobre a diferença entre o uso de modelos jurídicos pela AGU e a análise jurídica do conteúdo.",
+      "answer_relevancy_justificativa": "A resposta é tangencialmente relacionada, pois menciona a falta de informação específica, mas não aborda a diferença entre o uso de modelos jurídicos pela AGU e a análise jurídica do conteúdo.",
+      "correctness_justificativa": "A resposta está incorreta em relação à resposta de referência, que explica a diferença entre o uso de modelos jurídicos e a análise jurídica do conteúdo, enquanto a resposta do sistema afirma não encontrar a informação."
+    },
+    {
+      "id": "q16",
+      "tipo": "multi-hop",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "Guia-Pratico-ICTs.pdf",
+      "pergunta": "Quais são os requisitos para a implementação das atividades de CT&I da ICT?",
+      "resposta": "Os requisitos para a implementação das atividades de CT&I da ICT, conforme o contexto fornecido, incluem a formalização dentro de um projeto institucional de CT&I aprovado, que deve ser documentado em um processo administrativo próprio. Este processo deve informar a adequação com o regime jurídico de CT&I e com os princípios da Administração Pública, como legalidade, impessoalidade, moralidade, publicidade e eficiência. Além disso, a análise de relações jurídicas que a ICT pretender formalizar com terceiros deve ser materializada em um processo administrativo regular, formatado de acordo com a Portaria Interministerial nº 1.677/15, e instruído com documentos específicos, como o descritivo do projeto, estudos e plano de execução, manifestação do órgão de apoio à gestão da política de inovação da ICT, e ato do Diretor da ICT que autoriza a execução do projeto.",
+      "resposta_referencia": "A implementação deve ocorrer dentro de um projeto institucional de CT&I aprovado, formalizado em processo administrativo próprio, adequado ao regime jurídico de CT&I e aos princípios da Administração Pública.",
+      "contexto_tokens": 14141,
+      "context_meta": {
+        "documento": "Guia-Pratico-ICTs.pdf",
+        "chars": 59964,
+        "words": 8923,
+        "tokens": 14131
+      },
+      "tokens": {
+        "generation": {
+          "input": 14224,
+          "output": 176
+        },
+        "judge": {
+          "input": 14803,
+          "output": 171
+        },
+        "total": {
+          "input": 29027,
+          "output": 347
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto recuperado, mencionando a necessidade de formalização em um projeto institucional de CT&I aprovado e documentado em um processo administrativo próprio, além de seguir o regime jurídico de CT&I e os princípios da Administração Pública.",
+      "answer_relevancy_justificativa": "A resposta aborda diretamente a pergunta, detalhando os requisitos para a implementação das atividades de CT&I da ICT, conforme solicitado.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, mencionando todos os aspectos necessários para a implementação das atividades de CT&I da ICT."
+    },
+    {
+      "id": "q17",
+      "tipo": "factual",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "IPR-PDI_Prospeccao.pdf",
+      "pergunta": "Qual é o e-mail para dúvidas sobre as atividades de prospecção de projetos de P,D&I no ITA?",
+      "resposta": "O e-mail para dúvidas sobre as atividades de prospecção de projetos de P,D&I no ITA é secpdi@ita.br e/ou chefepdi@ita.br.",
+      "resposta_referencia": "secpdi@ita.br e/ou chefepdi@ita.br",
+      "contexto_tokens": 2906,
+      "context_meta": {
+        "documento": "IPR-PDI_Prospeccao.pdf",
+        "chars": 11153,
+        "words": 1594,
+        "tokens": 2893
+      },
+      "tokens": {
+        "generation": {
+          "input": 2997,
+          "output": 37
+        },
+        "judge": {
+          "input": 3418,
+          "output": 179
+        },
+        "total": {
+          "input": 6415,
+          "output": 216
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto recuperado, que menciona explicitamente os e-mails secpdi@ita.br e chefepdi@ita.br para dúvidas sobre as atividades de prospecção de projetos de P,D&I no ITA.",
+      "answer_relevancy_justificativa": "A resposta é diretamente relevante e completa em relação à pergunta, fornecendo exatamente os e-mails solicitados para dúvidas sobre as atividades de prospecção de projetos de P,D&I no ITA.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, fornecendo os mesmos e-mails mencionados na referência."
+    },
+    {
+      "id": "q18",
+      "tipo": "procedimental",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "IPR-PDI_Prospeccao.pdf",
+      "pergunta": "Quais são as etapas mencionadas no documento para a prospecção de projetos de P,D&I no ITA?",
+      "resposta": "As etapas mencionadas no documento para a prospecção de projetos de P,D&I no ITA são as seguintes:\n\n1. **Identificação de Demanda**: Pode ocorrer por meio de eventos, visitas, contatos, editais, por iniciativa do Coordenador, da Empresa ou da Reitoria (institucional).\n\n2. **Discussão do Escopo Técnico e Modelo de Fomento**: Definição de objetivo, entregáveis e macro-cronograma, além do modelo de fomento, que pode ser financiamento total da empresa ou composto com agência pública de financiamento.\n\n3. **Apresentação da Proposta Técnica**: Reunião com a Empresa para apresentar a proposta de escopo técnico e modelo de fomento.\n\n4. **Empresa Aprova?**: Avaliação do Escopo Técnico por parte da Empresa.\n\n5. **Discussão da Proposta Técnica e Financeira com IPR-PDI**: Coordenador apresenta ao Chefe da IPR-PDI a proposta técnica aprovada e a primeira versão da proposta financeira.\n\n6. **Revisão da Proposta Financeira com Fundação de Apoio**: Apresentação da precificação à Fundação de Apoio.\n\n7. **Solicitação de Agendamento da Apresentação ao CPRI**: Pedido à Secretaria da IPR para agendamento da apresentação da proposta na agenda da reunião do CPRI.\n\n8. **Apresentação ao CPRI**: Coordenador apresenta ao CPRI a proposta técnica e financeira.\n\n9. **CPRI Recomenda?**: Relato oficial da apresentação com o parecer do CPRI.\n\n10. **Fundação de Apoio envia Proposta Técnica e Financeira**: Formalização da proposta pela Fundação.\n\n11. **Análise pela Empresa**: Acompanhamento junto à Empresa quanto à avaliação da documentação enviada pela Fundação.",
+      "resposta_referencia": "Fluxograma de atividades, Descrição sucinta das atividades, Orientações do CPRI para apresentação de propostas de projeto",
+      "contexto_tokens": 2906,
+      "context_meta": {
+        "documento": "IPR-PDI_Prospeccao.pdf",
+        "chars": 11153,
+        "words": 1594,
+        "tokens": 2893
+      },
+      "tokens": {
+        "generation": {
+          "input": 2997,
+          "output": 372
+        },
+        "judge": {
+          "input": 3762,
+          "output": 155
+        },
+        "total": {
+          "input": 6759,
+          "output": 527
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 3,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto recuperado, listando as etapas de prospecção de projetos de P,D&I no ITA conforme descrito no documento.",
+      "answer_relevancy_justificativa": "A resposta é diretamente relevante e completa em relação à pergunta, abordando todas as etapas mencionadas no documento.",
+      "correctness_justificativa": "A resposta está parcialmente correta em relação à resposta de referência, pois a referência menciona apenas categorias gerais de atividades, enquanto a resposta do sistema detalha as etapas específicas."
+    },
+    {
+      "id": "q19",
+      "tipo": "comparativa",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "IPR-PDI_Prospeccao.pdf",
+      "pergunta": "Qual é a diferença entre o conteúdo do Fluxo de Atividades de Prospecção e a Descrição das Atividades de Prospecção?",
+      "resposta": "A diferença entre o conteúdo do \"Fluxo de Atividades de Prospecção\" e a \"Descrição das Atividades de Prospecção\" é que o primeiro apresenta um fluxograma das etapas a serem seguidas durante o processo de prospecção, enquanto o segundo fornece uma descrição detalhada de cada uma dessas etapas. O \"Fluxo de Atividades de Prospecção\" lista as atividades de forma sequencial e visual, enquanto a \"Descrição das Atividades de Prospecção\" explica cada atividade, incluindo detalhes sobre o que cada etapa envolve e quem está envolvido.",
+      "resposta_referencia": "O Fluxo de Atividades de Prospecção refere-se ao fluxograma de atividades, enquanto a Descrição das Atividades de Prospecção é uma descrição sucinta das atividades.",
+      "contexto_tokens": 2906,
+      "context_meta": {
+        "documento": "IPR-PDI_Prospeccao.pdf",
+        "chars": 11153,
+        "words": 1594,
+        "tokens": 2893
+      },
+      "tokens": {
+        "generation": {
+          "input": 3002,
+          "output": 117
+        },
+        "judge": {
+          "input": 3525,
+          "output": 213
+        },
+        "total": {
+          "input": 6527,
+          "output": 330
+        }
+      },
+      "faithfulness": 4,
+      "answer_relevancy": 5,
+      "correctness": 4,
+      "faithfulness_justificativa": "A resposta é bem suportada pelo contexto, descrevendo corretamente que o Fluxo de Atividades de Prospecção é um fluxograma e a Descrição das Atividades de Prospecção fornece detalhes sobre cada etapa. No entanto, a resposta menciona que a descrição inclui quem está envolvido, o que não é explicitamente suportado pelo contexto.",
+      "answer_relevancy_justificativa": "A resposta é diretamente relevante e completa em relação à pergunta, abordando a diferença entre o Fluxo de Atividades de Prospecção e a Descrição das Atividades de Prospecção.",
+      "correctness_justificativa": "A resposta está correta em relação à resposta de referência, mas inclui um detalhe menor não mencionado na referência sobre quem está envolvido nas etapas, o que não é explicitamente suportado pelo contexto."
+    },
+    {
+      "id": "q20",
+      "tipo": "multi-hop",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "IPR-PDI_Prospeccao.pdf",
+      "pergunta": "Quais são os componentes principais do documento de prospecção de projetos de P,D&I no ITA e quem fornece orientações para a apresentação de propostas?",
+      "resposta": "Os componentes principais do documento de prospecção de projetos de P,D&I no ITA são:\n\n1. Objetivo e Considerações\n2. Fluxo de Atividades de Prospecção\n3. Descrição das Atividades de Prospecção\n4. Orientações para Apresentação ao CPRI\n5. Controle de Revisão\n\nAs orientações para a apresentação de propostas são fornecidas pelo CPRI (Conselho de Projetos e Relacionamento Institucional).",
+      "resposta_referencia": "Os componentes principais são o Fluxograma de atividades, Descrição sucinta das atividades, e as orientações são fornecidas pelo CPRI.",
+      "contexto_tokens": 2906,
+      "context_meta": {
+        "documento": "IPR-PDI_Prospeccao.pdf",
+        "chars": 11153,
+        "words": 1594,
+        "tokens": 2893
+      },
+      "tokens": {
+        "generation": {
+          "input": 3005,
+          "output": 99
+        },
+        "judge": {
+          "input": 3501,
+          "output": 192
+        },
+        "total": {
+          "input": 6506,
+          "output": 291
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 4,
+      "faithfulness_justificativa": "A resposta está inteiramente suportada pelo contexto recuperado, listando corretamente os componentes principais do documento e identificando o CPRI como o fornecedor das orientações.",
+      "answer_relevancy_justificativa": "A resposta é diretamente relevante e completa em relação à pergunta, abordando tanto os componentes principais do documento quanto quem fornece as orientações.",
+      "correctness_justificativa": "A resposta está correta, mas a resposta de referência menciona 'Fluxograma de atividades' e 'Descrição sucinta das atividades', enquanto a resposta do sistema lista 'Fluxo de Atividades de Prospecção' e 'Descrição das Atividades de Prospecção'. Apesar disso, a essência da resposta está alinhada com a referência."
+    },
+    {
+      "id": "q21",
+      "tipo": "factual",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "IPR-PDI_Prospeccao.pdf",
+      "pergunta": "Qual é a proporção mínima de colaboradores vinculados ao ITA que a equipe executora deve ter?",
+      "resposta": "A equipe executora deve ser composta por no mínimo 2/3 (66%) de colaboradores vinculados ao ITA.",
+      "resposta_referencia": "A equipe executora deve ser composta por no mínimo 2/3 (66%) de colaboradores vinculados ao ITA.",
+      "contexto_tokens": 2906,
+      "context_meta": {
+        "documento": "IPR-PDI_Prospeccao.pdf",
+        "chars": 11153,
+        "words": 1594,
+        "tokens": 2893
+      },
+      "tokens": {
+        "generation": {
+          "input": 2994,
+          "output": 25
+        },
+        "judge": {
+          "input": 3413,
+          "output": 170
+        },
+        "total": {
+          "input": 6407,
+          "output": 195
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto recuperado, que afirma explicitamente que a equipe executora deve ser composta por no mínimo 2/3 (66%) de colaboradores vinculados ao ITA.",
+      "answer_relevancy_justificativa": "A resposta é diretamente relevante e completa em relação à pergunta, fornecendo a proporção mínima de colaboradores vinculados ao ITA que a equipe executora deve ter.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, fornecendo a mesma informação sobre a proporção mínima de colaboradores vinculados ao ITA."
+    },
+    {
+      "id": "q22",
+      "tipo": "procedimental",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "IPR-PDI_Prospeccao.pdf",
+      "pergunta": "Quais são os passos para incluir um servidor de outra instituição no projeto?",
+      "resposta": "Não encontrei informações específicas no contexto fornecido sobre os passos para incluir um servidor de outra instituição no projeto.",
+      "resposta_referencia": "Servidor de outra instituição só pode participar com autorização formal da Instituição de origem. Deve-se consultar 'Orientações para Solicitação de Declarações, Manifestações e Cartas'.",
+      "contexto_tokens": 2906,
+      "context_meta": {
+        "documento": "IPR-PDI_Prospeccao.pdf",
+        "chars": 11153,
+        "words": 1594,
+        "tokens": 2893
+      },
+      "tokens": {
+        "generation": {
+          "input": 2988,
+          "output": 22
+        },
+        "judge": {
+          "input": 3417,
+          "output": 145
+        },
+        "total": {
+          "input": 6405,
+          "output": 167
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 3,
+      "correctness": 3,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto, que não fornece informações específicas sobre os passos para incluir um servidor de outra instituição no projeto.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta ao afirmar que não encontrou informações específicas, mas não fornece detalhes adicionais que poderiam ser inferidos do contexto.",
+      "correctness_justificativa": "A resposta está parcialmente correta, pois não menciona a necessidade de autorização formal da instituição de origem, conforme indicado na resposta de referência."
+    },
+    {
+      "id": "q23",
+      "tipo": "comparativa",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "IPR-PDI_Prospeccao.pdf",
+      "pergunta": "Qual é a diferença entre as despesas de locomoção e o serviço de buffet mencionados no projeto?",
+      "resposta": "No contexto fornecido, as despesas de locomoção referem-se aos custos associados ao deslocamento entre parceiros e/ou fornecedores do projeto. Já o serviço de buffet está relacionado à organização de workshops com os parceiros do projeto. Portanto, a diferença entre eles está na natureza dos serviços: locomoção envolve transporte, enquanto o serviço de buffet envolve alimentação e hospitalidade durante eventos.",
+      "resposta_referencia": "Despesas de locomoção referem-se ao transporte entre parceiros e/ou fornecedores, enquanto o serviço de buffet é para organização de workshop com os parceiros do projeto.",
+      "contexto_tokens": 2906,
+      "context_meta": {
+        "documento": "IPR-PDI_Prospeccao.pdf",
+        "chars": 11153,
+        "words": 1594,
+        "tokens": 2893
+      },
+      "tokens": {
+        "generation": {
+          "input": 2994,
+          "output": 76
+        },
+        "judge": {
+          "input": 3472,
+          "output": 149
+        },
+        "total": {
+          "input": 6466,
+          "output": 225
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto recuperado, que menciona explicitamente as despesas de locomoção e o serviço de buffet.",
+      "answer_relevancy_justificativa": "A resposta aborda diretamente a pergunta, explicando a diferença entre as despesas de locomoção e o serviço de buffet.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, descrevendo adequadamente as diferenças entre as despesas de locomoção e o serviço de buffet."
+    },
+    {
+      "id": "q24",
+      "tipo": "multi-hop",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "IPR-PDI_Prospeccao.pdf",
+      "pergunta": "Quais são os requisitos para a participação de alunos do ITA e de pesquisadores de fora do ITA no projeto?",
+      "resposta": "Os requisitos para a participação de alunos do ITA e de pesquisadores de fora do ITA no projeto são os seguintes:\n\n1. **Participação de alunos do ITA**: O projeto precisa incluir alunos de pós-graduação e/ou graduação na equipe, em função da missão do ITA.\n\n2. **Participação de pesquisadores de fora do ITA**: Pesquisadores de outras instituições, mesmo que do DCTA, só estão autorizados a participar com autorização formal da instituição de origem. A equipe executora deve ser composta por no mínimo 2/3 (66%) de colaboradores vinculados ao ITA.\n\nSe precisar de mais informações, você pode consultar as \"Orientações para Solicitação de Declarações, Manifestações e Cartas\" para a autorização de pesquisadores externos.",
+      "resposta_referencia": "O projeto precisa incluir alunos de pós-graduação e/ou graduação do ITA. Pesquisadores de fora do ITA precisam de autorização formal da instituição de origem.",
+      "contexto_tokens": 2906,
+      "context_meta": {
+        "documento": "IPR-PDI_Prospeccao.pdf",
+        "chars": 11153,
+        "words": 1594,
+        "tokens": 2893
+      },
+      "tokens": {
+        "generation": {
+          "input": 2997,
+          "output": 161
+        },
+        "judge": {
+          "input": 3560,
+          "output": 162
+        },
+        "total": {
+          "input": 6557,
+          "output": 323
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto recuperado, que menciona explicitamente os requisitos para a participação de alunos do ITA e de pesquisadores de fora do ITA.",
+      "answer_relevancy_justificativa": "A resposta é diretamente relevante e completa em relação à pergunta, abordando os requisitos para a participação de alunos do ITA e de pesquisadores externos.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, mencionando os requisitos de inclusão de alunos do ITA e a necessidade de autorização para pesquisadores externos."
+    },
+    {
+      "id": "q25",
+      "tipo": "factual",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "NPA-ITA-2024-070.pdf",
+      "pergunta": "Qual é a data da Portaria GM-MD N° 1.112?",
+      "resposta": "A data da Portaria GM-MD N° 1.112 é 04 de março de 2024.",
+      "resposta_referencia": "04 de março de 2024",
+      "contexto_tokens": 6062,
+      "context_meta": {
+        "documento": "NPA-ITA-2024-070.pdf",
+        "chars": 21067,
+        "words": 3106,
+        "tokens": 6049
+      },
+      "tokens": {
+        "generation": {
+          "input": 6146,
+          "output": 24
+        },
+        "judge": {
+          "input": 6547,
+          "output": 145
+        },
+        "total": {
+          "input": 12693,
+          "output": 169
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada por informações explícitas no contexto, que menciona a data da Portaria GM-MD N° 1.112 como 04 de março de 2024.",
+      "answer_relevancy_justificativa": "A resposta é diretamente relevante e completa em relação à pergunta, fornecendo a data exata solicitada.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, ambas indicando a mesma data."
+    },
+    {
+      "id": "q26",
+      "tipo": "procedimental",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "NPA-ITA-2024-070.pdf",
+      "pergunta": "Quais são as etapas do processo de proposição e análise de projetos de CT&I do ITA?",
+      "resposta": "As etapas do processo de proposição e análise de projetos de CT&I do ITA, conforme descrito no documento NPA-ITA-2024-070, são as seguintes:\n\n1. **Identificação de Oportunidade**: A oportunidade de projeto pode ser identificada por iniciativa individual de professores ou pesquisadores, por iniciativa institucional, por demanda externa ou por participação em eventos.\n\n2. **Discussão do Escopo Técnico e Modelo de Fomento**: O responsável pelo projeto discute com potenciais parceiros para delinear o escopo técnico e identificar o modelo de fomento.\n\n3. **Apresentação da Proposta Técnica**: O responsável apresenta a proposta de escopo técnico e modelo de fomento aos parceiros.\n\n4. **Avaliação da Proposta Técnica pelo(s) Parceiro(s)**: A proposta técnica é avaliada pelos parceiros, podendo ser aprovada integralmente, aprovada com ajustes ou reprovada.\n\n5. **Discussão da Proposta Técnica e Financeira com IPR-PDI**: A proposta técnica aprovada é discutida com a IPR-PDI, incluindo a primeira versão da proposta financeira.\n\n6. **Revisão da Proposta Financeira com Fundação de Apoio**: A precificação das despesas é revisada com a Fundação de Apoio parceira do projeto.\n\n7. **Solicitação de Agendamento da Apresentação ao CPRI**: O coordenador solicita o agendamento da apresentação da proposta ao CPRI.\n\n8. **Apresentação ao CPRI**: O coordenador apresenta a proposta técnica e financeira ao CPRI.\n\n9. **Avaliação da Proposta de Projeto pelo CPRI**: O CPRI avalia a proposta, podendo recomendá-la integralmente, recomendar com ajustes ou não recomendar.\n\n10. **Envio da Proposta pela Fundação de Apoio**: A Fundação de Apoio formaliza a proposição do projeto e envia a carta comercial aos parceiros.\n\n11. **Avaliação da Proposta de Projeto pelo Parceiro**: O parceiro avalia a proposta, podendo aceitá-la integralmente, aceitar com ajustes ou rejeitar.\n\n12. **Celebração da Parceria**: Após a aprovação pelo CPRI e pelo Reitor, e a aceitação pelo parceiro, os documentos são assinados e o projeto entra na fase de execução.\n\nEssas etapas são seguidas para garantir a proposição, análise e aprovação de projetos institucionais de forma estruturada e em conformidade com as normas do ITA.",
+      "resposta_referencia": "Identificação de oportunidade, discussão do escopo técnico e modelo de fomento, apresentação da proposta técnica, avaliação da proposta técnica, discussão da proposta técnica e financeira com IPR-PDI, revisão da proposta financeira com Fundação de Apoio.",
+      "contexto_tokens": 6062,
+      "context_meta": {
+        "documento": "NPA-ITA-2024-070.pdf",
+        "chars": 21067,
+        "words": 3106,
+        "tokens": 6049
+      },
+      "tokens": {
+        "generation": {
+          "input": 6150,
+          "output": 510
+        },
+        "judge": {
+          "input": 7077,
+          "output": 142
+        },
+        "total": {
+          "input": 13227,
+          "output": 652
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta está inteiramente suportada pelo contexto recuperado, com todas as etapas mencionadas no documento NPA-ITA-2024-070.",
+      "answer_relevancy_justificativa": "A resposta aborda diretamente a pergunta, listando todas as etapas do processo de proposição e análise de projetos de CT&I do ITA conforme solicitado.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, incluindo todas as etapas mencionadas na referência."
+    },
+    {
+      "id": "q27",
+      "tipo": "comparativa",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "NPA-ITA-2024-070.pdf",
+      "pergunta": "Qual é a diferença entre o escopo técnico e o modelo de fomento de um projeto?",
+      "resposta": "A diferença entre o escopo técnico e o modelo de fomento de um projeto, conforme o contexto fornecido, é a seguinte:\n\n- **Escopo Técnico**: Refere-se à organização dos componentes do projeto, incluindo as motivações científica, tecnológica e econômica; o objetivo; a estrutura analítica do projeto a partir de pacotes de trabalho; os entregáveis; a infraestrutura a ser utilizada; o cronograma de atividades; o planejamento de equipe; e os resultados esperados.\n\n- **Modelo de Fomento**: Refere-se às possíveis formas de viabilização do projeto, que podem incluir financiamento exclusivamente do setor privado ou uma composição com recursos de agências públicas de fomento, tanto em âmbito nacional quanto internacional (financiamento híbrido).\n\nPortanto, o escopo técnico está relacionado ao conteúdo e à organização do projeto em si, enquanto o modelo de fomento está relacionado às formas de financiamento e suporte financeiro para a execução do projeto.",
+      "resposta_referencia": "O escopo técnico inclui motivações, objetivo, estrutura analítica, entregáveis, infraestrutura, cronograma, equipe e resultados esperados. O modelo de fomento refere-se às formas de viabilização do projeto, seja por financiamento privado ou híbrido.",
+      "contexto_tokens": 6062,
+      "context_meta": {
+        "documento": "NPA-ITA-2024-070.pdf",
+        "chars": 21067,
+        "words": 3106,
+        "tokens": 6049
+      },
+      "tokens": {
+        "generation": {
+          "input": 6148,
+          "output": 194
+        },
+        "judge": {
+          "input": 6764,
+          "output": 148
+        },
+        "total": {
+          "input": 12912,
+          "output": 342
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto recuperado, com informações explícitas sobre o escopo técnico e o modelo de fomento.",
+      "answer_relevancy_justificativa": "A resposta é diretamente relevante e completa em relação à pergunta, abordando claramente a diferença entre escopo técnico e modelo de fomento.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, descrevendo com precisão os conceitos de escopo técnico e modelo de fomento."
+    },
+    {
+      "id": "q28",
+      "tipo": "multi-hop",
+      "mode": "full_context",
+      "context_scope": "oracle_doc",
+      "documento": "NPA-ITA-2024-070.pdf",
+      "pergunta": "O que acontece se uma proposta técnica for aprovada mediante ajustes?",
+      "resposta": "Se uma proposta técnica for aprovada mediante ajustes, o fluxo de proposição retorna às etapas descritas nos itens 2.1 ou 2.2, dependendo da justificativa associada à necessidade de ajustes. Assim que ajustada, a proposta segue normalmente o fluxo a partir do ponto em que retornou para viabilizar o ajuste, ou seja, sem supressão de etapas subsequentes.",
+      "resposta_referencia": "O fluxo de proposição retorna às etapas descritas nos itens 2.1 ou 2.2, a depender da justificativa associada à necessidade de ajustes. Assim que ajustada, a proposta segue normalmente o fluxo a partir do ponto em que retornou.",
+      "contexto_tokens": 6062,
+      "context_meta": {
+        "documento": "NPA-ITA-2024-070.pdf",
+        "chars": 21067,
+        "words": 3106,
+        "tokens": 6049
+      },
+      "tokens": {
+        "generation": {
+          "input": 6142,
+          "output": 82
+        },
+        "judge": {
+          "input": 6647,
+          "output": 152
+        },
+        "total": {
+          "input": 12789,
+          "output": 234
+        }
+      },
+      "faithfulness": 5,
+      "answer_relevancy": 5,
+      "correctness": 5,
+      "faithfulness_justificativa": "A resposta é inteiramente suportada pelo contexto recuperado, que descreve exatamente o que acontece quando uma proposta técnica é aprovada mediante ajustes.",
+      "answer_relevancy_justificativa": "A resposta aborda diretamente a pergunta, explicando o que ocorre quando uma proposta técnica é aprovada mediante ajustes.",
+      "correctness_justificativa": "A resposta está correta e alinhada com a resposta de referência, descrevendo com precisão o processo de retorno às etapas 2.1 ou 2.2 e o seguimento do fluxo após ajustes."
+    }
+  ]
+}

@@ -10,3 +10,5 @@ tiktoken
 rank_bm25
 pymupdf
 langchain-text-splitters
+langchain-voyageai
+python-pptx

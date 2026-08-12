@@ -1,6 +1,8 @@
 from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
+from src.config import DEFAULT_CHUNK_SIZE, DEFAULT_OVERLAP
+
 class Treater():
     def __init__(self, file):
         self.file = file
@@ -13,7 +15,7 @@ class Treater():
         loader = PyMuPDFLoader(self.file)
         return loader.load()
 
-    def split_chunks(self, chunk_size=1000, overlap=150):
+    def split_chunks(self, chunk_size=DEFAULT_CHUNK_SIZE, overlap=DEFAULT_OVERLAP):
         """
         Divide os documentos em chunks respeitando fronteiras semânticas.
         Ordem de separadores: parágrafo → linha → frase → palavra.

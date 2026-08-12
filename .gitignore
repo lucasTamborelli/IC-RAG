@@ -1,8 +1,11 @@
 .env
 __pycache__/
 *.log
-.vscode
+.vscode/
 .venv
-.devcontainer
+.devcontainer/
 artigo/
 CLAUDE.md
+data/vector_db/exp_*/
+data/eval/results/
+data/eval/analysis/

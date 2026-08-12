@@ -1,0 +1,836 @@
+{
+  "summary": {
+    "mode": "no_rag",
+    "n_questions": 28,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevancy": 2.857142857142857,
+      "correctness": 1.8214285714285714
+    },
+    "tokens": {
+      "generation_input": 2635,
+      "generation_output": 5043,
+      "judge_input": 18861,
+      "judge_output": 3984,
+      "total_input": 21496,
+      "total_output": 9027,
+      "avg_input_per_question": 767.7142857142857,
+      "avg_output_per_question": 322.39285714285717,
+      "estimated_cost_usd": 0.14401
+    }
+  },
+  "results": [
+    {
+      "id": "q01",
+      "tipo": "factual",
+      "mode": "no_rag",
+      "pergunta": "Quem é responsável pela execução e supervisão das atividades do Projeto Institucional?",
+      "resposta": "Não tenho acesso aos documentos institucionais específicos do ITA, portanto, não posso confirmar quem é responsável pela execução e supervisão das atividades de um Projeto Institucional no ITA. Recomendo consultar diretamente os documentos oficiais do ITA ou entrar em contato com a instituição para obter essa informação.",
+      "resposta_referencia": "O Coordenador de Projeto, também referido como 'Gerente de Projeto'.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 89,
+          "output": 59
+        },
+        "judge": {
+          "input": 533,
+          "output": 134
+        },
+        "total": {
+          "input": 622,
+          "output": 193
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 2,
+      "correctness": 1,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não há contexto fornecido.",
+      "answer_relevancy_justificativa": "A resposta é tangencialmente relacionada, pois menciona a falta de acesso a documentos, mas não responde à pergunta sobre quem é responsável.",
+      "correctness_justificativa": "A resposta está completamente incorreta em relação à resposta de referência, que identifica o Coordenador de Projeto como responsável."
+    },
+    {
+      "id": "q02",
+      "tipo": "procedimental",
+      "mode": "no_rag",
+      "pergunta": "Quais são as etapas para a participação de membros em projetos de PD&I?",
+      "resposta": "Não tenho acesso a documentos institucionais específicos do ITA, portanto, não posso confirmar as etapas exatas para a participação de membros em projetos de PD&I no ITA. No entanto, de forma geral, as etapas para participação em projetos de Pesquisa, Desenvolvimento e Inovação (PD&I) podem incluir:\n\n1. **Identificação de Oportunidades**: Identificar áreas de interesse ou chamadas para projetos de PD&I que estejam alinhadas com as competências e interesses dos membros.\n\n2. **Proposta de Projeto**: Desenvolver uma proposta detalhada que descreva os objetivos, metodologia, cronograma e recursos necessários para o projeto.\n\n3. **Submissão e Aprovação**: Submeter a proposta para avaliação e aprovação por parte das autoridades competentes ou comitês de avaliação.\n\n4. **Formação de Equipe**: Selecionar e reunir uma equipe de pesquisadores e colaboradores que possuam as habilidades e conhecimentos necessários para o projeto.\n\n5. **Execução do Projeto**: Implementar o projeto conforme o plano aprovado, monitorando o progresso e fazendo ajustes conforme necessário.\n\n6. **Relatórios e Avaliação**: Preparar relatórios de progresso e resultados finais, que serão avaliados por revisores ou comitês.\n\n7. **Disseminação dos Resultados**: Publicar ou apresentar os resultados do projeto em conferências, revistas acadêmicas ou outros meios apropriados.\n\nPara informações específicas sobre o ITA, seria necessário consultar documentos institucionais ou entrar em contato diretamente com a instituição.",
+      "resposta_referencia": "A participação está condicionada à assinatura do Termo de Confidencialidade e Reconhecimento de Titularidade.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 90,
+          "output": 312
+        },
+        "judge": {
+          "input": 795,
+          "output": 132
+        },
+        "total": {
+          "input": 885,
+          "output": 444
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 2,
+      "faithfulness_justificativa": "A resposta não é suportada pelo contexto recuperado, pois não há informações fornecidas para embasar as etapas mencionadas.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta de forma geral, mas não responde especificamente sobre as etapas no contexto do ITA.",
+      "correctness_justificativa": "A resposta está incorreta em relação à resposta de referência, que menciona a assinatura de um termo específico como etapa necessária."
+    },
+    {
+      "id": "q03",
+      "tipo": "comparativa",
+      "mode": "no_rag",
+      "pergunta": "Qual a diferença entre Celetistas e Autônomos nos projetos do ITA?",
+      "resposta": "Não tenho acesso a documentos institucionais específicos do ITA, mas posso fornecer uma explicação geral sobre a diferença entre celetistas e autônomos no contexto de projetos.\n\nCeletistas são trabalhadores contratados sob o regime da Consolidação das Leis do Trabalho (CLT) no Brasil. Eles têm um vínculo empregatício formal com a instituição ou empresa, o que lhes garante uma série de direitos trabalhistas, como férias remuneradas, 13º salário, FGTS, entre outros benefícios. No contexto de projetos, celetistas geralmente têm horários de trabalho definidos e estão sujeitos às políticas e regulamentos internos da organização.\n\nAutônomos, por outro lado, são profissionais que trabalham de forma independente, sem vínculo empregatício formal. Eles prestam serviços ou realizam trabalhos específicos para uma organização ou cliente, geralmente com base em contratos de prestação de serviços. Autônomos têm mais flexibilidade em relação aos horários de trabalho e não têm os mesmos direitos trabalhistas garantidos aos celetistas, como férias remuneradas ou 13º salário. No entanto, eles têm a liberdade de trabalhar para múltiplos clientes e gerenciar sua própria carga de trabalho.\n\nSe você precisar de informações específicas sobre como o ITA lida com celetistas e autônomos em seus projetos, recomendo consultar diretamente os documentos institucionais ou entrar em contato com o departamento responsável no ITA.",
+      "resposta_referencia": "Celetistas têm vínculo empregatício formal com a fundação de apoio, enquanto Autônomos são contratados para atividades específicas sem vínculo empregatício.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 91,
+          "output": 284
+        },
+        "judge": {
+          "input": 777,
+          "output": 158
+        },
+        "total": {
+          "input": 868,
+          "output": 442
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 3,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto específico do ITA.",
+      "answer_relevancy_justificativa": "A resposta aborda a diferença entre celetistas e autônomos de forma geral, mas não no contexto específico dos projetos do ITA.",
+      "correctness_justificativa": "A resposta está parcialmente correta em relação à referência, pois descreve corretamente as características gerais de celetistas e autônomos, mas não menciona a relação específica com a fundação de apoio do ITA."
+    },
+    {
+      "id": "q04",
+      "tipo": "multi-hop",
+      "mode": "no_rag",
+      "pergunta": "Como as Fundações de Apoio contribuem para os Projetos Institucionais do ITA?",
+      "resposta": "As Fundações de Apoio desempenham um papel importante no suporte a projetos institucionais de instituições como o ITA (Instituto Tecnológico de Aeronáutica). De maneira geral, essas fundações podem contribuir de várias formas:\n\n1. **Gestão Administrativa e Financeira**: As fundações de apoio podem auxiliar na gestão administrativa e financeira de projetos, facilitando a execução de atividades que exigem agilidade e flexibilidade, muitas vezes não disponíveis nos processos burocráticos das instituições públicas.\n\n2. **Captação de Recursos**: Elas podem atuar na captação de recursos junto a empresas, agências de fomento e outras entidades, ampliando as possibilidades de financiamento para projetos de pesquisa e desenvolvimento.\n\n3. **Parcerias e Colaborações**: As fundações podem facilitar a formação de parcerias com o setor privado e outras instituições de pesquisa, promovendo a transferência de tecnologia e a inovação.\n\n4. **Apoio Logístico e Operacional**: Elas podem fornecer apoio logístico e operacional, como a aquisição de materiais, contratação de serviços e gestão de pessoal, permitindo que os pesquisadores se concentrem nas atividades científicas.\n\n5. **Flexibilidade na Execução de Projetos**: As fundações de apoio oferecem maior flexibilidade na execução de projetos, permitindo ajustes e adaptações conforme necessário, o que é particularmente útil em projetos de pesquisa que podem ter requisitos dinâmicos.\n\nNo entanto, é importante ressaltar que as especificidades de como essas contribuições são realizadas no contexto do ITA dependeriam de documentos institucionais específicos, aos quais não tenho acesso. Portanto, para informações detalhadas e precisas sobre o papel das fundações de apoio nos projetos do ITA, seria necessário consultar documentos oficiais ou representantes da instituição.",
+      "resposta_referencia": "Elas oferecem suporte administrativo e financeiro, além de gerenciar a concessão de bolsas e pagamentos de pessoal.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 95,
+          "output": 358
+        },
+        "judge": {
+          "input": 845,
+          "output": 144
+        },
+        "total": {
+          "input": 940,
+          "output": 502
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 4,
+      "correctness": 3,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto algum.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta de forma relevante, mencionando várias formas de contribuição das fundações de apoio, mas não está completa sem o contexto específico do ITA.",
+      "correctness_justificativa": "A resposta está parcialmente correta em relação à referência, pois menciona suporte administrativo e financeiro, mas inclui informações adicionais não presentes na referência."
+    },
+    {
+      "id": "q05",
+      "tipo": "factual",
+      "mode": "no_rag",
+      "pergunta": "Qual é a jurisdição competente para resolver litígios relacionados ao Termo?",
+      "resposta": "Não tenho acesso a documentos institucionais específicos do ITA, portanto, não posso confirmar qual seria a jurisdição competente para resolver litígios relacionados ao Termo mencionado. Recomendo consultar o próprio documento ou entrar em contato com o ITA para obter informações precisas sobre a jurisdição aplicável.",
+      "resposta_referencia": "A Justiça Federal de São José dos Campos / SP.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 90,
+          "output": 61
+        },
+        "judge": {
+          "input": 532,
+          "output": 142
+        },
+        "total": {
+          "input": 622,
+          "output": 203
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 1,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto algum.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta ao mencionar a necessidade de consultar o documento para obter a jurisdição, mas não fornece a informação solicitada.",
+      "correctness_justificativa": "A resposta está incorreta em relação à resposta de referência, que especifica a Justiça Federal de São José dos Campos / SP como a jurisdição competente."
+    },
+    {
+      "id": "q06",
+      "tipo": "procedimental",
+      "mode": "no_rag",
+      "pergunta": "Qual é o procedimento necessário para divulgar pesquisas confidenciais em congressos?",
+      "resposta": "Não tenho acesso aos documentos institucionais específicos do ITA, portanto, não posso confirmar os procedimentos exatos adotados por essa instituição. No entanto, de forma geral, quando se trata de divulgar pesquisas confidenciais em congressos, algumas etapas comuns podem incluir:\n\n1. **Revisão de Confidencialidade**: Verificar se a pesquisa está sujeita a acordos de confidencialidade ou restrições de divulgação.\n\n2. **Consulta ao Escritório de Propriedade Intelectual**: Consultar o escritório de propriedade intelectual ou jurídico da instituição para entender as implicações legais e obter orientações sobre a divulgação.\n\n3. **Proteção de Propriedade Intelectual**: Considerar a proteção da propriedade intelectual, como patentes, antes da divulgação pública.\n\n4. **Autorização Formal**: Obter autorização formal da instituição ou dos patrocinadores do projeto para divulgar a pesquisa.\n\n5. **Preparação do Material**: Preparar o material a ser apresentado de forma que informações confidenciais não sejam reveladas, se necessário.\n\n6. **Acordos de Não Divulgação (NDAs)**: Em alguns casos, pode ser necessário estabelecer acordos de não divulgação com os participantes do congresso.\n\nPara procedimentos específicos do ITA, seria necessário consultar diretamente os documentos e regulamentos internos da instituição.",
+      "resposta_referencia": "É necessária a prévia autorização, por escrito, do Coordenador do Projeto ou do Pró-Reitor.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 88,
+          "output": 269
+        },
+        "judge": {
+          "input": 748,
+          "output": 138
+        },
+        "total": {
+          "input": 836,
+          "output": 407
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 2,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto ao sistema.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta de forma geral, mas não fornece informações específicas sobre o procedimento necessário no contexto do ITA.",
+      "correctness_justificativa": "A resposta não está correta em relação à resposta de referência, que menciona especificamente a necessidade de autorização por escrito do Coordenador do Projeto ou do Pró-Reitor."
+    },
+    {
+      "id": "q07",
+      "tipo": "comparativa",
+      "mode": "no_rag",
+      "pergunta": "Qual é a diferença entre as atividades desenvolvidas pelo Membro da Equipe e uma contraprestação por serviços prestados?",
+      "resposta": "Não tenho acesso a documentos institucionais específicos do ITA, mas posso oferecer uma explicação geral sobre os termos mencionados.\n\nEm um contexto de propriedade intelectual e desenvolvimento de projetos, \"Membro da Equipe\" geralmente se refere a uma pessoa que faz parte de um grupo de trabalho ou projeto, contribuindo com suas habilidades e conhecimentos para alcançar os objetivos do projeto. As atividades desenvolvidas por um Membro da Equipe podem incluir pesquisa, desenvolvimento, design, testes, entre outras tarefas relacionadas ao projeto.\n\nPor outro lado, \"contraprestação por serviços prestados\" refere-se a uma compensação ou pagamento feito a uma pessoa ou entidade em troca de serviços específicos realizados. Isso pode incluir honorários, salários, ou outras formas de remuneração acordadas entre as partes envolvidas.\n\nA principal diferença entre os dois conceitos é que as atividades de um Membro da Equipe são parte de sua contribuição contínua para um projeto ou organização, enquanto a contraprestação por serviços prestados é uma transação específica em que uma parte paga à outra por serviços realizados.",
+      "resposta_referencia": "As atividades são para aperfeiçoamento e aplicação dos conhecimentos adquiridos, não se configurando como contraprestação por serviços.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 99,
+          "output": 216
+        },
+        "judge": {
+          "input": 710,
+          "output": 176
+        },
+        "total": {
+          "input": 809,
+          "output": 392
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 2,
+      "faithfulness_justificativa": "A resposta não é suportada pelo contexto recuperado, pois não há contexto fornecido. A resposta é baseada em suposições gerais e não em informações específicas do documento institucional.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta de forma geral, mas não responde especificamente à diferença mencionada na pergunta, que é sobre atividades de aperfeiçoamento e aplicação de conhecimentos.",
+      "correctness_justificativa": "A resposta está incorreta em relação à resposta de referência, pois não menciona que as atividades são para aperfeiçoamento e aplicação dos conhecimentos adquiridos, e não se configuram como contraprestação por serviços."
+    },
+    {
+      "id": "q08",
+      "tipo": "multi-hop",
+      "mode": "no_rag",
+      "pergunta": "Quem deve autorizar a divulgação de pesquisas confidenciais e qual é a consequência de violar as condições do Termo?",
+      "resposta": "Não tenho acesso a documentos institucionais específicos do ITA, mas, de forma geral, a autorização para a divulgação de pesquisas confidenciais geralmente deve ser concedida pela instituição responsável pela pesquisa, que pode incluir o pesquisador principal, o departamento ou a administração da instituição. Além disso, se a pesquisa estiver sob um contrato ou acordo de confidencialidade, as partes envolvidas nesse acordo também devem autorizar a divulgação.\n\nQuanto às consequências de violar as condições de um termo de confidencialidade, elas podem incluir ações disciplinares, rescisão de contrato, sanções legais e a obrigação de reparar danos causados pela divulgação não autorizada. As penalidades específicas dependerão dos termos do acordo de confidencialidade e das políticas institucionais aplicáveis.",
+      "resposta_referencia": "O Coordenador do Projeto ou o Pró-Reitor deve autorizar; a violação pode levar à responsabilização administrativa, civil e criminal.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 98,
+          "output": 154
+        },
+        "judge": {
+          "input": 650,
+          "output": 160
+        },
+        "total": {
+          "input": 748,
+          "output": 314
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 2,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto ao sistema.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta de forma geral, mas não fornece detalhes específicos sobre quem deve autorizar a divulgação e as consequências exatas, conforme a pergunta.",
+      "correctness_justificativa": "A resposta está incorreta em relação à resposta de referência, pois não menciona o Coordenador do Projeto ou o Pró-Reitor como responsáveis pela autorização, nem as consequências específicas de responsabilização administrativa, civil e criminal."
+    },
+    {
+      "id": "q09",
+      "tipo": "factual",
+      "mode": "no_rag",
+      "pergunta": "Qual é a portaria que define a forma de materialização de um projeto institucional da ICT da União?",
+      "resposta": "Não tenho acesso a documentos institucionais específicos do ITA ou de qualquer outra instituição. Portanto, não posso confirmar qual é a portaria que define a forma de materialização de um projeto institucional da ICT da União. Recomendo consultar diretamente as fontes oficiais ou o departamento responsável por propriedade intelectual no ITA para obter essa informação.",
+      "resposta_referencia": "Portaria Interministerial MJ/MPOG nº 1.677/15",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 95,
+          "output": 66
+        },
+        "judge": {
+          "input": 548,
+          "output": 158
+        },
+        "total": {
+          "input": 643,
+          "output": 224
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 2,
+      "correctness": 1,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto algum.",
+      "answer_relevancy_justificativa": "A resposta é tangencialmente relacionada, pois menciona a falta de acesso a documentos institucionais, mas não responde à pergunta sobre qual portaria define a forma de materialização de um projeto institucional.",
+      "correctness_justificativa": "A resposta está completamente incorreta em relação à resposta de referência, que é a Portaria Interministerial MJ/MPOG nº 1.677/15."
+    },
+    {
+      "id": "q10",
+      "tipo": "procedimental",
+      "mode": "no_rag",
+      "pergunta": "Quais são as etapas básicas de instrução do processo administrativo principal que instrumentaliza o projeto de CT&I da ICT?",
+      "resposta": "Não tenho acesso a documentos institucionais específicos do ITA, portanto, não posso confirmar detalhes específicos sobre o processo administrativo que instrumentaliza projetos de Ciência, Tecnologia e Inovação (CT&I) da Instituição Científica e Tecnológica (ICT) do ITA. No entanto, de forma geral, as etapas básicas de um processo administrativo para projetos de CT&I em instituições de pesquisa podem incluir:\n\n1. **Identificação e Proposição do Projeto**: Definição dos objetivos, escopo e justificativa do projeto.\n\n2. **Planejamento**: Desenvolvimento de um plano detalhado que inclui cronograma, orçamento, recursos necessários e metodologia.\n\n3. **Aprovação**: Submissão do projeto para avaliação e aprovação por comitês ou órgãos competentes.\n\n4. **Execução**: Implementação das atividades planejadas, monitoramento do progresso e gestão de recursos.\n\n5. **Avaliação e Relatórios**: Avaliação dos resultados alcançados em relação aos objetivos propostos e elaboração de relatórios técnicos e financeiros.\n\n6. **Encerramento**: Conclusão formal do projeto, incluindo a documentação final e a disseminação dos resultados.\n\nPara informações específicas sobre o ITA, seria necessário consultar documentos institucionais ou entrar em contato diretamente com a instituição.",
+      "resposta_referencia": "1º) Descritivo do Projeto, 2º) Estudos e Plano de Execução do projeto, 3º) Manifestação do órgão de apoio à gestão da política de inovação da ICT",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 98,
+          "output": 262
+        },
+        "judge": {
+          "input": 771,
+          "output": 127
+        },
+        "total": {
+          "input": 869,
+          "output": 389
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 2,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto ao sistema.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta de forma geral, mas não fornece detalhes específicos sobre o processo administrativo da ICT mencionado na pergunta.",
+      "correctness_justificativa": "A resposta apresenta um processo genérico que não corresponde às etapas específicas da resposta de referência."
+    },
+    {
+      "id": "q11",
+      "tipo": "comparativa",
+      "mode": "no_rag",
+      "pergunta": "Qual é a diferença entre o planejamento da execução do projeto e o Plano de Trabalho?",
+      "resposta": "Não tenho acesso a documentos institucionais específicos do ITA, mas posso oferecer uma explicação geral sobre os conceitos de planejamento da execução do projeto e Plano de Trabalho.\n\n1. **Planejamento da Execução do Projeto**: Este é um processo abrangente que envolve a definição de como o projeto será executado, monitorado e controlado. Inclui a identificação de recursos necessários, cronogramas, orçamento, gestão de riscos, qualidade e comunicação. O objetivo é garantir que o projeto seja concluído dentro do prazo, do orçamento e dos padrões de qualidade estabelecidos.\n\n2. **Plano de Trabalho**: Este é um documento mais específico que detalha as atividades e tarefas a serem realizadas para atingir os objetivos do projeto. Inclui a descrição das tarefas, responsáveis, prazos, recursos alocados e critérios de sucesso. O Plano de Trabalho é uma parte do planejamento da execução do projeto e serve como um guia operacional para a equipe do projeto.\n\nEm resumo, o planejamento da execução do projeto é um processo mais amplo e estratégico, enquanto o Plano de Trabalho é um documento tático e operacional que faz parte desse planejamento.",
+      "resposta_referencia": "O planejamento da execução do projeto é a fase de estudos e definição de como o projeto será executado, enquanto o Plano de Trabalho instrui as relações jurídicas do tipo convênio ou acordo de parceria.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 91,
+          "output": 227
+        },
+        "judge": {
+          "input": 728,
+          "output": 146
+        },
+        "total": {
+          "input": 819,
+          "output": 373
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 2,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não há informações fornecidas para validar as afirmações feitas.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta de forma geral, mas não está alinhada com a especificidade da pergunta sobre documentos institucionais.",
+      "correctness_justificativa": "A resposta apresenta uma explicação genérica que não está correta em relação à resposta de referência, que menciona aspectos jurídicos específicos do Plano de Trabalho."
+    },
+    {
+      "id": "q12",
+      "tipo": "multi-hop",
+      "mode": "no_rag",
+      "pergunta": "Qual é o papel do NIT na execução de um projeto institucional da ICT e o que cabe ao Diretor da ICT?",
+      "resposta": "Não tenho acesso a documentos institucionais específicos do ITA, mas posso fornecer uma visão geral baseada no conhecimento comum sobre o papel de Núcleos de Inovação Tecnológica (NITs) e diretores de Instituições Científicas e Tecnológicas (ICTs) no Brasil.\n\nO NIT é responsável por gerir a política de inovação dentro de uma ICT. Suas funções geralmente incluem a proteção da propriedade intelectual, a transferência de tecnologia, a promoção de parcerias com o setor produtivo e o apoio ao desenvolvimento de projetos de pesquisa e inovação. O NIT atua como um facilitador para que as inovações desenvolvidas na ICT possam ser aplicadas no mercado, garantindo que os direitos de propriedade intelectual sejam devidamente protegidos e explorados.\n\nO Diretor da ICT, por outro lado, tem um papel mais amplo na gestão da instituição. Ele é responsável por definir as diretrizes estratégicas, alocar recursos, supervisionar a execução de projetos e garantir que a instituição cumpra sua missão de pesquisa, ensino e extensão. No contexto de um projeto institucional, o Diretor pode ter a função de aprovar projetos, garantir que eles estejam alinhados com os objetivos estratégicos da ICT e assegurar que os recursos necessários estejam disponíveis.\n\nPara informações específicas sobre o ITA, seria necessário consultar documentos institucionais ou diretrizes internas da instituição.",
+      "resposta_referencia": "O NIT deve se manifestar formalmente sobre os objetivos e diretrizes da política de inovação relacionados ao projeto, enquanto cabe ao Diretor da ICT autorizar o início da execução material do projeto.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 98,
+          "output": 273
+        },
+        "judge": {
+          "input": 780,
+          "output": 152
+        },
+        "total": {
+          "input": 878,
+          "output": 425
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 2,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto ao sistema.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta de forma geral, mas não responde especificamente ao papel do NIT e do Diretor da ICT conforme solicitado.",
+      "correctness_justificativa": "A resposta contém informações gerais sobre o NIT e o Diretor da ICT, mas não está alinhada com a resposta de referência, que especifica ações concretas de ambos no contexto de um projeto institucional."
+    },
+    {
+      "id": "q13",
+      "tipo": "factual",
+      "mode": "no_rag",
+      "pergunta": "Qual é a portaria mencionada para análise e emissão de manifestação jurídica?",
+      "resposta": "Não possuo acesso aos documentos institucionais específicos do ITA e, portanto, não posso confirmar qual portaria é mencionada para análise e emissão de manifestação jurídica. Recomendo consultar diretamente as fontes oficiais do ITA ou entrar em contato com o departamento responsável por Propriedade Intelectual para obter essa informação.",
+      "resposta_referencia": "PORTARIA AGU nº 1.399/09.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 89,
+          "output": 64
+        },
+        "judge": {
+          "input": 535,
+          "output": 133
+        },
+        "total": {
+          "input": 624,
+          "output": 197
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 1,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois nenhum contexto foi fornecido.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta ao mencionar a falta de acesso a documentos institucionais, mas não fornece a informação solicitada.",
+      "correctness_justificativa": "A resposta está incorreta em relação à resposta de referência, que menciona especificamente a PORTARIA AGU nº 1.399/09."
+    },
+    {
+      "id": "q14",
+      "tipo": "procedimental",
+      "mode": "no_rag",
+      "pergunta": "Qual é o procedimento para a apreciação do estado de execução do projeto pela ICT?",
+      "resposta": "Não tenho acesso aos documentos institucionais específicos do ITA ou de qualquer outra instituição. Portanto, não posso confirmar o procedimento exato para a apreciação do estado de execução do projeto pela ICT no contexto do ITA. Recomendo consultar diretamente os documentos oficiais do ITA ou entrar em contato com a instituição para obter informações precisas e atualizadas sobre esse procedimento.",
+      "resposta_referencia": "O órgão de apoio à gestão da política de inovação da ICT deverá apreciar o estado de execução do projeto com base no método/métrica objetiva de gestão e emitir relatório no processo principal.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 91,
+          "output": 74
+        },
+        "judge": {
+          "input": 571,
+          "output": 147
+        },
+        "total": {
+          "input": 662,
+          "output": 221
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 2,
+      "correctness": 1,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto algum.",
+      "answer_relevancy_justificativa": "A resposta é tangencialmente relacionada, pois menciona a falta de acesso a documentos institucionais, mas não responde à pergunta sobre o procedimento específico.",
+      "correctness_justificativa": "A resposta está incorreta em relação à resposta de referência, pois não fornece nenhuma informação sobre o procedimento de apreciação do estado de execução do projeto pela ICT."
+    },
+    {
+      "id": "q15",
+      "tipo": "comparativa",
+      "mode": "no_rag",
+      "pergunta": "Qual é a diferença entre o uso de modelos jurídicos pela AGU e a análise jurídica do conteúdo?",
+      "resposta": "A diferença entre o uso de modelos jurídicos pela Advocacia-Geral da União (AGU) e a análise jurídica do conteúdo reside principalmente na função e no propósito de cada um.\n\n1. **Uso de Modelos Jurídicos pela AGU**: A AGU utiliza modelos jurídicos como ferramentas padronizadas para a elaboração de documentos legais, como petições, pareceres e contratos. Esses modelos são desenvolvidos para garantir consistência, eficiência e conformidade com a legislação vigente. Eles servem como guias que ajudam os advogados a estruturar seus documentos de maneira adequada, assegurando que todos os elementos necessários estejam presentes e que a linguagem utilizada seja precisa e juridicamente correta.\n\n2. **Análise Jurídica do Conteúdo**: A análise jurídica do conteúdo, por outro lado, envolve uma avaliação detalhada e crítica de questões legais específicas. Isso inclui a interpretação de leis, regulamentos e precedentes judiciais, bem como a aplicação desses elementos a casos concretos. A análise jurídica requer um exame minucioso dos fatos e das circunstâncias de cada caso para fornecer aconselhamento jurídico, identificar riscos legais e propor soluções adequadas.\n\nEm resumo, enquanto os modelos jurídicos são ferramentas padronizadas para a elaboração de documentos, a análise jurídica do conteúdo é um processo mais aprofundado e personalizado de avaliação e interpretação legal. Como não tenho acesso a documentos institucionais específicos do ITA, não posso confirmar como essas práticas são aplicadas especificamente nessa instituição.",
+      "resposta_referencia": "O uso de modelos jurídicos pela AGU não dispensa a análise jurídica do conteúdo, nem vincula a análise ao modelo encaminhado pela ICT.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 95,
+          "output": 298
+        },
+        "judge": {
+          "input": 793,
+          "output": 158
+        },
+        "total": {
+          "input": 888,
+          "output": 456
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 2,
+      "faithfulness_justificativa": "A resposta não é suportada pelo contexto recuperado, pois não há contexto fornecido para validar as afirmações feitas.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta ao diferenciar o uso de modelos jurídicos e a análise jurídica, mas não menciona a relação entre eles conforme a pergunta sugere.",
+      "correctness_justificativa": "A resposta está incorreta em relação à referência, pois não menciona que o uso de modelos não dispensa a análise jurídica, nem que a análise não é vinculada ao modelo."
+    },
+    {
+      "id": "q16",
+      "tipo": "multi-hop",
+      "mode": "no_rag",
+      "pergunta": "Quais são os requisitos para a implementação das atividades de CT&I da ICT?",
+      "resposta": "Não tenho acesso aos documentos institucionais específicos do ITA ou de qualquer outra instituição, portanto, não posso confirmar os requisitos específicos para a implementação das atividades de Ciência, Tecnologia e Inovação (CT&I) de uma Instituição Científica e Tecnológica (ICT) como o ITA. No entanto, de forma geral, as atividades de CT&I em ICTs costumam envolver requisitos como:\n\n1. **Planejamento Estratégico**: Definição de objetivos e metas claras para as atividades de pesquisa e inovação.\n\n2. **Recursos Humanos Qualificados**: Disponibilidade de pesquisadores, técnicos e pessoal de apoio qualificado.\n\n3. **Infraestrutura Adequada**: Laboratórios, equipamentos e instalações apropriadas para a condução de pesquisas.\n\n4. **Financiamento**: Fontes de financiamento adequadas, que podem incluir recursos públicos, parcerias com a indústria e agências de fomento.\n\n5. **Parcerias e Colaborações**: Estabelecimento de parcerias com outras instituições de pesquisa, empresas e organizações governamentais.\n\n6. **Gestão de Propriedade Intelectual**: Políticas claras para a proteção e gestão de patentes, direitos autorais e outros ativos de propriedade intelectual.\n\n7. **Ética e Conformidade**: Adesão a normas éticas e regulatórias em todas as atividades de pesquisa.\n\nPara informações específicas sobre os requisitos do ITA, seria necessário consultar documentos institucionais ou entrar em contato diretamente com a instituição.",
+      "resposta_referencia": "A implementação deve ocorrer dentro de um projeto institucional de CT&I aprovado, formalizado em processo administrativo próprio, adequado ao regime jurídico de CT&I e aos princípios da Administração Pública.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 90,
+          "output": 307
+        },
+        "judge": {
+          "input": 802,
+          "output": 143
+        },
+        "total": {
+          "input": 892,
+          "output": 450
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 2,
+      "faithfulness_justificativa": "A resposta não é suportada pelo contexto recuperado, pois não há contexto fornecido para embasar as informações apresentadas.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta de forma geral, mas não responde especificamente aos requisitos mencionados na pergunta.",
+      "correctness_justificativa": "A resposta apresenta informações gerais sobre CT&I, mas não está alinhada com a resposta de referência, que menciona requisitos específicos de aprovação e formalização em processo administrativo."
+    },
+    {
+      "id": "q17",
+      "tipo": "factual",
+      "mode": "no_rag",
+      "pergunta": "Qual é o e-mail para dúvidas sobre as atividades de prospecção de projetos de P,D&I no ITA?",
+      "resposta": "Desculpe, não tenho acesso aos documentos institucionais específicos do ITA e, portanto, não posso confirmar o e-mail para dúvidas sobre as atividades de prospecção de projetos de P,D&I no ITA. Recomendo visitar o site oficial do ITA ou entrar em contato diretamente com a instituição para obter essa informação.",
+      "resposta_referencia": "secpdi@ita.br e/ou chefepdi@ita.br",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 98,
+          "output": 67
+        },
+        "judge": {
+          "input": 550,
+          "output": 118
+        },
+        "total": {
+          "input": 648,
+          "output": 185
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 1,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não há informações fornecidas.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta ao sugerir como obter a informação, mas não fornece o e-mail solicitado.",
+      "correctness_justificativa": "A resposta não fornece o e-mail correto conforme a resposta de referência."
+    },
+    {
+      "id": "q18",
+      "tipo": "procedimental",
+      "mode": "no_rag",
+      "pergunta": "Quais são as etapas mencionadas no documento para a prospecção de projetos de P,D&I no ITA?",
+      "resposta": "Não possuo acesso a documentos institucionais específicos do ITA, portanto, não posso confirmar as etapas mencionadas para a prospecção de projetos de P,D&I no ITA. Recomendo consultar diretamente os documentos oficiais ou entrar em contato com o ITA para obter informações precisas e detalhadas.",
+      "resposta_referencia": "Fluxograma de atividades, Descrição sucinta das atividades, Orientações do CPRI para apresentação de propostas de projeto",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 98,
+          "output": 62
+        },
+        "judge": {
+          "input": 554,
+          "output": 155
+        },
+        "total": {
+          "input": 652,
+          "output": 217
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 2,
+      "correctness": 1,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto algum.",
+      "answer_relevancy_justificativa": "A resposta é tangencialmente relacionada, pois menciona a falta de acesso ao documento, mas não aborda as etapas de prospecção de projetos de P,D&I no ITA.",
+      "correctness_justificativa": "A resposta está completamente incorreta em relação à resposta de referência, que menciona etapas específicas como 'Fluxograma de atividades' e 'Orientações do CPRI'."
+    },
+    {
+      "id": "q19",
+      "tipo": "comparativa",
+      "mode": "no_rag",
+      "pergunta": "Qual é a diferença entre o conteúdo do Fluxo de Atividades de Prospecção e a Descrição das Atividades de Prospecção?",
+      "resposta": "Não tenho acesso a documentos institucionais específicos do ITA, portanto, não posso confirmar o conteúdo exato do \"Fluxo de Atividades de Prospecção\" e da \"Descrição das Atividades de Prospecção\" conforme definido por essa instituição. No entanto, em termos gerais, posso explicar o que esses termos geralmente significam no contexto de propriedade intelectual e prospecção tecnológica:\n\n1. **Fluxo de Atividades de Prospecção**: Geralmente, refere-se ao processo ou sequência de etapas que são seguidas para identificar e avaliar novas oportunidades tecnológicas ou de mercado. Isso pode incluir a identificação de tendências, análise de patentes, avaliação de tecnologias emergentes, entre outras atividades. O fluxo é mais focado na ordem e na estrutura das atividades.\n\n2. **Descrição das Atividades de Prospecção**: Normalmente, refere-se a uma explicação detalhada de cada atividade individual dentro do processo de prospecção. Isso pode incluir a finalidade de cada atividade, os métodos utilizados, os recursos necessários e os resultados esperados. A descrição é mais focada no conteúdo e nos detalhes de cada atividade específica.\n\nSe precisar de informações específicas sobre como esses conceitos são aplicados no ITA, recomendo consultar diretamente os documentos ou recursos institucionais do ITA.",
+      "resposta_referencia": "O Fluxo de Atividades de Prospecção refere-se ao fluxograma de atividades, enquanto a Descrição das Atividades de Prospecção é uma descrição sucinta das atividades.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 103,
+          "output": 262
+        },
+        "judge": {
+          "input": 772,
+          "output": 134
+        },
+        "total": {
+          "input": 875,
+          "output": 396
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 3,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto algum.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta de forma geral, mas não fornece informações específicas sobre o ITA, que é o foco da pergunta.",
+      "correctness_justificativa": "A resposta está parcialmente correta em termos gerais, mas não está alinhada com a resposta de referência específica do ITA."
+    },
+    {
+      "id": "q20",
+      "tipo": "multi-hop",
+      "mode": "no_rag",
+      "pergunta": "Quais são os componentes principais do documento de prospecção de projetos de P,D&I no ITA e quem fornece orientações para a apresentação de propostas?",
+      "resposta": "Não possuo acesso aos documentos institucionais específicos do ITA, portanto, não posso confirmar os componentes principais do documento de prospecção de projetos de P,D&I no ITA nem quem fornece orientações para a apresentação de propostas. Recomendo consultar diretamente o ITA ou seus canais oficiais para obter essa informação.",
+      "resposta_referencia": "Os componentes principais são o Fluxograma de atividades, Descrição sucinta das atividades, e as orientações são fornecidas pelo CPRI.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 106,
+          "output": 64
+        },
+        "judge": {
+          "input": 568,
+          "output": 145
+        },
+        "total": {
+          "input": 674,
+          "output": 209
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 2,
+      "correctness": 1,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto algum.",
+      "answer_relevancy_justificativa": "A resposta é tangencialmente relacionada, pois menciona a falta de acesso ao documento, mas não responde à pergunta sobre os componentes principais ou quem fornece orientações.",
+      "correctness_justificativa": "A resposta está completamente incorreta em relação à resposta de referência, que menciona componentes específicos e o CPRI como fonte de orientações."
+    },
+    {
+      "id": "q21",
+      "tipo": "factual",
+      "mode": "no_rag",
+      "pergunta": "Qual é a proporção mínima de colaboradores vinculados ao ITA que a equipe executora deve ter?",
+      "resposta": "Não possuo acesso aos documentos institucionais específicos do ITA e, portanto, não posso confirmar a proporção mínima de colaboradores vinculados ao ITA que a equipe executora deve ter. Recomendo consultar diretamente as diretrizes ou regulamentos do ITA para obter essa informação.",
+      "resposta_referencia": "A equipe executora deve ser composta por no mínimo 2/3 (66%) de colaboradores vinculados ao ITA.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 95,
+          "output": 57
+        },
+        "judge": {
+          "input": 547,
+          "output": 144
+        },
+        "total": {
+          "input": 642,
+          "output": 201
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 2,
+      "correctness": 1,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto.",
+      "answer_relevancy_justificativa": "A resposta é tangencialmente relacionada, pois menciona a falta de acesso a documentos, mas não responde à pergunta sobre a proporção mínima.",
+      "correctness_justificativa": "A resposta está incorreta em relação à resposta de referência, que especifica a proporção mínima de 2/3 de colaboradores vinculados ao ITA."
+    },
+    {
+      "id": "q22",
+      "tipo": "procedimental",
+      "mode": "no_rag",
+      "pergunta": "Quais são os passos para incluir um servidor de outra instituição no projeto?",
+      "resposta": "Não tenho acesso aos documentos institucionais específicos do ITA, portanto, não posso confirmar os passos exatos para incluir um servidor de outra instituição em um projeto no ITA. No entanto, geralmente, esse processo pode envolver os seguintes passos:\n\n1. **Identificação da Necessidade**: Determinar a necessidade de incluir um servidor de outra instituição no projeto e definir o papel que ele desempenhará.\n\n2. **Aprovação Interna**: Obter aprovação interna dentro do ITA para a inclusão do servidor externo, o que pode envolver a consulta a coordenadores de projeto ou departamentos relevantes.\n\n3. **Acordo de Colaboração**: Estabelecer um acordo de colaboração ou um contrato formal entre as instituições envolvidas, detalhando os termos da participação, responsabilidades, propriedade intelectual e confidencialidade.\n\n4. **Autorização Institucional**: Obter as autorizações necessárias da instituição do servidor para que ele possa participar do projeto.\n\n5. **Integração no Projeto**: Integrar o servidor ao projeto, fornecendo acesso aos recursos necessários e garantindo que ele esteja ciente das diretrizes e objetivos do projeto.\n\n6. **Gestão e Supervisão**: Monitorar a participação do servidor no projeto para garantir que as contribuições estejam alinhadas com os objetivos estabelecidos.\n\nPara informações precisas e específicas, seria necessário consultar os documentos institucionais do ITA ou entrar em contato com o departamento responsável por projetos e colaborações.",
+      "resposta_referencia": "Servidor de outra instituição só pode participar com autorização formal da Instituição de origem. Deve-se consultar 'Orientações para Solicitação de Declarações, Manifestações e Cartas'.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 89,
+          "output": 298
+        },
+        "judge": {
+          "input": 795,
+          "output": 132
+        },
+        "total": {
+          "input": 884,
+          "output": 430
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 2,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto ao sistema.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta de forma geral, mas não fornece informações específicas sobre o processo no ITA.",
+      "correctness_justificativa": "A resposta não está alinhada com a resposta de referência, que menciona a necessidade de autorização formal e consulta a documentos específicos."
+    },
+    {
+      "id": "q23",
+      "tipo": "comparativa",
+      "mode": "no_rag",
+      "pergunta": "Qual é a diferença entre as despesas de locomoção e o serviço de buffet mencionados no projeto?",
+      "resposta": "Não tenho acesso a documentos institucionais específicos do ITA ou a detalhes de projetos específicos. No entanto, de forma geral, despesas de locomoção referem-se aos custos associados ao transporte de pessoas ou bens de um lugar para outro, como passagens aéreas, combustível, táxis ou aluguel de veículos. Já o serviço de buffet refere-se aos custos relacionados à alimentação e bebidas fornecidas durante um evento ou reunião, incluindo a preparação, apresentação e serviço de refeições. Se precisar de informações específicas sobre um projeto do ITA, recomendo consultar diretamente os documentos ou entrar em contato com a instituição.",
+      "resposta_referencia": "Despesas de locomoção referem-se ao transporte entre parceiros e/ou fornecedores, enquanto o serviço de buffet é para organização de workshop com os parceiros do projeto.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 95,
+          "output": 122
+        },
+        "judge": {
+          "input": 620,
+          "output": 128
+        },
+        "total": {
+          "input": 715,
+          "output": 250
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 3,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto algum.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta de forma geral, mas não fornece detalhes específicos do projeto mencionado.",
+      "correctness_justificativa": "A resposta está parcialmente correta em termos gerais, mas não se alinha com a resposta de referência que fornece detalhes específicos do projeto."
+    },
+    {
+      "id": "q24",
+      "tipo": "multi-hop",
+      "mode": "no_rag",
+      "pergunta": "Quais são os requisitos para a participação de alunos do ITA e de pesquisadores de fora do ITA no projeto?",
+      "resposta": "Não tenho acesso a documentos institucionais específicos do ITA, portanto, não posso confirmar os requisitos exatos para a participação de alunos do ITA e de pesquisadores de fora do ITA em projetos. Recomendo consultar diretamente as diretrizes e regulamentos do ITA ou entrar em contato com a instituição para obter informações precisas e atualizadas sobre os requisitos de participação em projetos.",
+      "resposta_referencia": "O projeto precisa incluir alunos de pós-graduação e/ou graduação do ITA. Pesquisadores de fora do ITA precisam de autorização formal da instituição de origem.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 98,
+          "output": 77
+        },
+        "judge": {
+          "input": 578,
+          "output": 149
+        },
+        "total": {
+          "input": 676,
+          "output": 226
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 1,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não há informações fornecidas para verificar a precisão da resposta.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta ao mencionar a necessidade de consultar diretrizes do ITA, mas não fornece informações específicas sobre os requisitos de participação.",
+      "correctness_justificativa": "A resposta está incorreta em relação à resposta de referência, pois não menciona os requisitos específicos de inclusão de alunos do ITA e autorização para pesquisadores externos."
+    },
+    {
+      "id": "q25",
+      "tipo": "factual",
+      "mode": "no_rag",
+      "pergunta": "Qual é a data da Portaria GM-MD N° 1.112?",
+      "resposta": "Desculpe, não tenho acesso a documentos institucionais específicos do ITA ou a detalhes sobre portarias específicas, como a Portaria GM-MD N° 1.112. Recomendo consultar diretamente fontes oficiais ou documentos do ITA para obter essa informação.",
+      "resposta_referencia": "04 de março de 2024",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 91,
+          "output": 54
+        },
+        "judge": {
+          "input": 523,
+          "output": 129
+        },
+        "total": {
+          "input": 614,
+          "output": 183
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 2,
+      "correctness": 1,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto.",
+      "answer_relevancy_justificativa": "A resposta é tangencialmente relacionada, pois menciona a falta de acesso a documentos, mas não responde à pergunta sobre a data.",
+      "correctness_justificativa": "A resposta está completamente incorreta em relação à resposta de referência, que fornece uma data específica."
+    },
+    {
+      "id": "q26",
+      "tipo": "procedimental",
+      "mode": "no_rag",
+      "pergunta": "Quais são as etapas do processo de proposição e análise de projetos de CT&I do ITA?",
+      "resposta": "Não tenho acesso aos documentos institucionais específicos do ITA, portanto, não posso confirmar as etapas exatas do processo de proposição e análise de projetos de Ciência, Tecnologia e Inovação (CT&I) dessa instituição. No entanto, em geral, processos de proposição e análise de projetos de CT&I em instituições acadêmicas e de pesquisa podem incluir as seguintes etapas:\n\n1. **Identificação de Oportunidades**: Identificação de áreas de pesquisa ou inovação que necessitam de desenvolvimento.\n\n2. **Elaboração da Proposta**: Desenvolvimento de uma proposta detalhada que inclui objetivos, metodologia, cronograma, orçamento e resultados esperados.\n\n3. **Submissão da Proposta**: Envio da proposta para o órgão ou comitê responsável pela análise e aprovação.\n\n4. **Avaliação Técnica e Científica**: Revisão da proposta por especialistas na área para avaliar a viabilidade técnica e o mérito científico.\n\n5. **Análise de Viabilidade Financeira**: Avaliação dos custos e da disponibilidade de recursos financeiros para o projeto.\n\n6. **Aprovação Institucional**: Aprovação formal pela instituição, que pode envolver várias camadas de revisão e autorização.\n\n7. **Execução do Projeto**: Implementação do projeto conforme o plano aprovado.\n\n8. **Monitoramento e Avaliação**: Acompanhamento do progresso do projeto e avaliação dos resultados em relação aos objetivos estabelecidos.\n\nPara informações precisas e específicas sobre o ITA, seria necessário consultar documentos oficiais ou entrar em contato diretamente com a instituição.",
+      "resposta_referencia": "Identificação de oportunidade, discussão do escopo técnico e modelo de fomento, apresentação da proposta técnica, avaliação da proposta técnica, discussão da proposta técnica e financeira com IPR-PDI, revisão da proposta financeira com Fundação de Apoio.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 95,
+          "output": 314
+        },
+        "judge": {
+          "input": 827,
+          "output": 127
+        },
+        "total": {
+          "input": 922,
+          "output": 441
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 2,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto ao sistema.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta de forma geral, mas não fornece informações específicas sobre o ITA.",
+      "correctness_justificativa": "A resposta apresenta um processo genérico que não corresponde ao processo específico do ITA descrito na resposta de referência."
+    },
+    {
+      "id": "q27",
+      "tipo": "comparativa",
+      "mode": "no_rag",
+      "pergunta": "Qual é a diferença entre o escopo técnico e o modelo de fomento de um projeto?",
+      "resposta": "O escopo técnico e o modelo de fomento de um projeto são conceitos distintos que se referem a diferentes aspectos do planejamento e execução de um projeto.\n\n1. **Escopo Técnico**: Refere-se às especificações técnicas e aos objetivos do projeto. Inclui a descrição detalhada do que será desenvolvido ou pesquisado, as tecnologias a serem utilizadas, os métodos e processos a serem seguidos, e os resultados esperados. O escopo técnico define o \"o quê\" e o \"como\" do projeto, estabelecendo os parâmetros técnicos e científicos que guiarão a execução do trabalho.\n\n2. **Modelo de Fomento**: Refere-se ao financiamento e suporte financeiro do projeto. Inclui as fontes de recursos, como agências de fomento, investidores ou parcerias, e as condições sob as quais o financiamento é concedido. O modelo de fomento pode envolver subsídios, empréstimos, investimentos de capital, ou outras formas de apoio financeiro. Ele define o \"quem\" e o \"quanto\" em termos de recursos financeiros necessários para viabilizar o projeto.\n\nEsses dois aspectos são complementares e essenciais para o planejamento e execução bem-sucedida de um projeto, mas tratam de dimensões diferentes: o escopo técnico foca no conteúdo e na execução técnica, enquanto o modelo de fomento foca no financiamento e viabilidade econômica.",
+      "resposta_referencia": "O escopo técnico inclui motivações, objetivo, estrutura analítica, entregáveis, infraestrutura, cronograma, equipe e resultados esperados. O modelo de fomento refere-se às formas de viabilização do projeto, seja por financiamento privado ou híbrido.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 93,
+          "output": 278
+        },
+        "judge": {
+          "input": 794,
+          "output": 137
+        },
+        "total": {
+          "input": 887,
+          "output": 415
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 5,
+      "correctness": 4,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto ao sistema.",
+      "answer_relevancy_justificativa": "A resposta aborda diretamente a pergunta sobre a diferença entre escopo técnico e modelo de fomento.",
+      "correctness_justificativa": "A resposta está correta em relação à definição dos termos, mas não menciona todos os detalhes presentes na resposta de referência, como a estrutura analítica e a equipe no escopo técnico."
+    },
+    {
+      "id": "q28",
+      "tipo": "multi-hop",
+      "mode": "no_rag",
+      "pergunta": "O que acontece se uma proposta técnica for aprovada mediante ajustes?",
+      "resposta": "Não tenho acesso aos documentos institucionais específicos do ITA, portanto, não posso confirmar os procedimentos exatos adotados por essa instituição. No entanto, de forma geral, quando uma proposta técnica é aprovada mediante ajustes, isso significa que a proposta foi considerada viável, mas requer algumas modificações ou melhorias antes de ser implementada ou aceita definitivamente. Normalmente, o proponente é informado sobre os ajustes necessários e pode ser solicitado a submeter uma versão revisada da proposta para uma nova avaliação ou aprovação final.",
+      "resposta_referencia": "O fluxo de proposição retorna às etapas descritas nos itens 2.1 ou 2.2, a depender da justificativa associada à necessidade de ajustes. Assim que ajustada, a proposta segue normalmente o fluxo a partir do ponto em que retornou.",
+      "contexto_tokens": 0,
+      "tokens": {
+        "generation": {
+          "input": 87,
+          "output": 104
+        },
+        "judge": {
+          "input": 615,
+          "output": 138
+        },
+        "total": {
+          "input": 702,
+          "output": 242
+        }
+      },
+      "faithfulness": 1,
+      "answer_relevancy": 3,
+      "correctness": 2,
+      "faithfulness_justificativa": "A resposta não é suportada por nenhum contexto recuperado, pois não foi fornecido contexto ao sistema.",
+      "answer_relevancy_justificativa": "A resposta aborda a pergunta de forma geral, mas não fornece detalhes específicos sobre o procedimento mencionado na pergunta.",
+      "correctness_justificativa": "A resposta está incorreta em relação à resposta de referência, pois não menciona o retorno às etapas 2.1 ou 2.2 e o fluxo normal após ajustes."
+    }
+  ]
+}

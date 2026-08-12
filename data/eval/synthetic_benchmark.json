@@ -1,0 +1,254 @@
+[
+  {
+    "tipo": "factual",
+    "pergunta": "Quem é responsável pela execução e supervisão das atividades do Projeto Institucional?",
+    "resposta_referencia": "O Coordenador de Projeto, também referido como 'Gerente de Projeto'.",
+    "trecho_fonte": "Coordenador de Projeto - Agente público da ativa vinculado ao ITA, designado como Coordenador Técnico do Projeto Institucional, também referido como 'Gerente de Projeto' pela ICA 80-12/2024, responsável direto pela execução e supervisão de todas as atividades...",
+    "documento": "01-CR-IPR-2025.pdf",
+    "pagina": "1-3",
+    "id": "q01"
+  },
+  {
+    "tipo": "procedimental",
+    "pergunta": "Quais são as etapas para a participação de membros em projetos de PD&I?",
+    "resposta_referencia": "A participação está condicionada à assinatura do Termo de Confidencialidade e Reconhecimento de Titularidade.",
+    "trecho_fonte": "A participação dos membros na execução do projeto está condicionada à assinatura do Termo de Confidencialidade e Reconhecimento de Titularidade (Anexo III - NPA 073:2024), garantindo a proteção dos resultados gerados.",
+    "documento": "01-CR-IPR-2025.pdf",
+    "pagina": "1-3",
+    "id": "q02"
+  },
+  {
+    "tipo": "comparativa",
+    "pergunta": "Qual a diferença entre Celetistas e Autônomos nos projetos do ITA?",
+    "resposta_referencia": "Celetistas têm vínculo empregatício formal com a fundação de apoio, enquanto Autônomos são contratados para atividades específicas sem vínculo empregatício.",
+    "trecho_fonte": "Celetistas: contrato regido pela Consolidação das Leis do Trabalho (CLT)... Autônomos: profissionais contratados para atividades específicas sem vínculo empregatício...",
+    "documento": "01-CR-IPR-2025.pdf",
+    "pagina": "1-3",
+    "id": "q03"
+  },
+  {
+    "tipo": "multi-hop",
+    "pergunta": "Como as Fundações de Apoio contribuem para os Projetos Institucionais do ITA?",
+    "resposta_referencia": "Elas oferecem suporte administrativo e financeiro, além de gerenciar a concessão de bolsas e pagamentos de pessoal.",
+    "trecho_fonte": "executados com o suporte administrativo e financeiro das Fundações de Apoio ao ITA... responsável pela gestão administrativa e financeira do projeto institucional do ITA no qual há a previsão expressa da concessão do pagamento de bolsa...",
+    "documento": "01-CR-IPR-2025.pdf",
+    "pagina": "1-3",
+    "id": "q04"
+  },
+  {
+    "tipo": "factual",
+    "pergunta": "Qual é a jurisdição competente para resolver litígios relacionados ao Termo?",
+    "resposta_referencia": "A Justiça Federal de São José dos Campos / SP.",
+    "trecho_fonte": "É competente a Justiça Federal de São José dos Campos / SP para dirimir quaisquer dúvidas ou litígios oriundos do presente Termo...",
+    "documento": "01-CR-IPR-2025.pdf",
+    "pagina": "16-17",
+    "id": "q05"
+  },
+  {
+    "tipo": "procedimental",
+    "pergunta": "Qual é o procedimento necessário para divulgar pesquisas confidenciais em congressos?",
+    "resposta_referencia": "É necessária a prévia autorização, por escrito, do Coordenador do Projeto ou do Pró-Reitor.",
+    "trecho_fonte": "As divulgações em congressos, simpósios e seminários, bem como publicações internas, estão sujeitas à prévia autorização, por escrito, do Coordenador do Projeto ou do Pró-Reitor...",
+    "documento": "01-CR-IPR-2025.pdf",
+    "pagina": "16-17",
+    "id": "q06"
+  },
+  {
+    "tipo": "comparativa",
+    "pergunta": "Qual é a diferença entre as atividades desenvolvidas pelo Membro da Equipe e uma contraprestação por serviços prestados?",
+    "resposta_referencia": "As atividades são para aperfeiçoamento e aplicação dos conhecimentos adquiridos, não se configurando como contraprestação por serviços.",
+    "trecho_fonte": "a bolsa concedida em função das atividades a serem desenvolvidas pelo Membro da Equipe para o projeto, não se configuram como contraprestação por serviços prestados, e sim atividades de pesquisa para aperfeiçoamento e aplicação dos conhecimentos adquiridos.",
+    "documento": "01-CR-IPR-2025.pdf",
+    "pagina": "16-17",
+    "id": "q07"
+  },
+  {
+    "tipo": "multi-hop",
+    "pergunta": "Quem deve autorizar a divulgação de pesquisas confidenciais e qual é a consequência de violar as condições do Termo?",
+    "resposta_referencia": "O Coordenador do Projeto ou o Pró-Reitor deve autorizar; a violação pode levar à responsabilização administrativa, civil e criminal.",
+    "trecho_fonte": "As divulgações em congressos, simpósios e seminários, bem como publicações internas, estão sujeitas à prévia autorização, por escrito, do Coordenador do Projeto ou do Pró-Reitor... a violação de qualquer das condições estabelecidas neste Termo poderá sujeitá-lo à responsabilização administrativa, civil criminal.",
+    "documento": "01-CR-IPR-2025.pdf",
+    "pagina": "16-17",
+    "id": "q08"
+  },
+  {
+    "tipo": "factual",
+    "pergunta": "Qual é a portaria que define a forma de materialização de um projeto institucional da ICT da União?",
+    "resposta_referencia": "Portaria Interministerial MJ/MPOG nº 1.677/15",
+    "trecho_fonte": "deve materializá-lo no bojo de um processo administrativo (processo principal), segundo a forma definida na Portaria Interministerial MJ/MPOG nº 1.677/15",
+    "documento": "Guia-Pratico-ICTs.pdf",
+    "pagina": "13-15",
+    "id": "q09"
+  },
+  {
+    "tipo": "procedimental",
+    "pergunta": "Quais são as etapas básicas de instrução do processo administrativo principal que instrumentaliza o projeto de CT&I da ICT?",
+    "resposta_referencia": "1º) Descritivo do Projeto, 2º) Estudos e Plano de Execução do projeto, 3º) Manifestação do órgão de apoio à gestão da política de inovação da ICT",
+    "trecho_fonte": "ESTRUTURA BÁSICA DE INSTRUÇÃO DO PROCESSO ADMINISTRATIVO PRINCIPAL QUE INSTRUMENTALIZA O PROJETO DE CT&I DA ICT 1º) Descritivo do Projeto... 2º) Estudos e Plano de Execução do projeto... 3º) Manifestação do órgão de apoio à gestão da política de inovação da ICT",
+    "documento": "Guia-Pratico-ICTs.pdf",
+    "pagina": "13-15",
+    "id": "q10"
+  },
+  {
+    "tipo": "comparativa",
+    "pergunta": "Qual é a diferença entre o planejamento da execução do projeto e o Plano de Trabalho?",
+    "resposta_referencia": "O planejamento da execução do projeto é a fase de estudos e definição de como o projeto será executado, enquanto o Plano de Trabalho instrui as relações jurídicas do tipo convênio ou acordo de parceria.",
+    "trecho_fonte": "o planejamento da execução do projeto é a fase de estudos... ao passo que o Plano de Trabalho é um documento específico que instrui as relações jurídicas do tipo convênio ou acordo de parceria",
+    "documento": "Guia-Pratico-ICTs.pdf",
+    "pagina": "13-15",
+    "id": "q11"
+  },
+  {
+    "tipo": "multi-hop",
+    "pergunta": "Qual é o papel do NIT na execução de um projeto institucional da ICT e o que cabe ao Diretor da ICT?",
+    "resposta_referencia": "O NIT deve se manifestar formalmente sobre os objetivos e diretrizes da política de inovação relacionados ao projeto, enquanto cabe ao Diretor da ICT autorizar o início da execução material do projeto.",
+    "trecho_fonte": "compete ao órgão de apoio à gestão da sua política de inovação (o NIT) se manifestar formalmente nos autos... caberá ao Diretor da ICT autorizar o início da execução material do projeto",
+    "documento": "Guia-Pratico-ICTs.pdf",
+    "pagina": "13-15",
+    "id": "q12"
+  },
+  {
+    "tipo": "factual",
+    "pergunta": "Qual é a portaria mencionada para análise e emissão de manifestação jurídica?",
+    "resposta_referencia": "PORTARIA AGU nº 1.399/09.",
+    "trecho_fonte": "Ao final da instrução do processo administrativo (principal e/ou apensos), ou autos serão submetidos ao órgão de assessoramento jurídico da AGU, para análise e emissão de manifestação jurídica nos termos da PORTARIA AGU nº 1.399/09.",
+    "documento": "Guia-Pratico-ICTs.pdf",
+    "pagina": "28-30",
+    "id": "q13"
+  },
+  {
+    "tipo": "procedimental",
+    "pergunta": "Qual é o procedimento para a apreciação do estado de execução do projeto pela ICT?",
+    "resposta_referencia": "O órgão de apoio à gestão da política de inovação da ICT deverá apreciar o estado de execução do projeto com base no método/métrica objetiva de gestão e emitir relatório no processo principal.",
+    "trecho_fonte": "Periodicamente, segundo definido em sua norma específica da ICT, o órgão de apoio à gestão da política de inovação da ICT deverá apreciar o estado de execução do projeto com base no método/métrica objetiva de gestão e emitir relatório no processo principal.",
+    "documento": "Guia-Pratico-ICTs.pdf",
+    "pagina": "28-30",
+    "id": "q14"
+  },
+  {
+    "tipo": "comparativa",
+    "pergunta": "Qual é a diferença entre o uso de modelos jurídicos pela AGU e a análise jurídica do conteúdo?",
+    "resposta_referencia": "O uso de modelos jurídicos pela AGU não dispensa a análise jurídica do conteúdo, nem vincula a análise ao modelo encaminhado pela ICT.",
+    "trecho_fonte": "A utilização de modelos jurídicos disponibilizados pela AGU não significa a dispensa de análise jurídica do seu conteúdo e muito menos a vinculação da análise jurídica ao modelo encaminhado pela ICT na instrução do processo.",
+    "documento": "Guia-Pratico-ICTs.pdf",
+    "pagina": "28-30",
+    "id": "q15"
+  },
+  {
+    "tipo": "multi-hop",
+    "pergunta": "Quais são os requisitos para a implementação das atividades de CT&I da ICT?",
+    "resposta_referencia": "A implementação deve ocorrer dentro de um projeto institucional de CT&I aprovado, formalizado em processo administrativo próprio, adequado ao regime jurídico de CT&I e aos princípios da Administração Pública.",
+    "trecho_fonte": "A implementação das atividades de CT&I da ICT se concretiza dentro de um de seus projetos institucionais de CT&I aprovados, o que deve ser formalizado no bojo de processo administrativo próprio, que informe a adequação com o regime jurídico de CT&I e com os princípios da Administração Pública da legalidade, da impessoalidade, da moralidade, da publicidade e da eficiência.",
+    "documento": "Guia-Pratico-ICTs.pdf",
+    "pagina": "28-30",
+    "id": "q16"
+  },
+  {
+    "tipo": "factual",
+    "pergunta": "Qual é o e-mail para dúvidas sobre as atividades de prospecção de projetos de P,D&I no ITA?",
+    "resposta_referencia": "secpdi@ita.br e/ou chefepdi@ita.br",
+    "trecho_fonte": "No caso de dúvidas, escreva para secpdi@ita.br e/ou chefepdi@ita.br",
+    "documento": "IPR-PDI_Prospeccao.pdf",
+    "pagina": "1-3",
+    "id": "q17"
+  },
+  {
+    "tipo": "procedimental",
+    "pergunta": "Quais são as etapas mencionadas no documento para a prospecção de projetos de P,D&I no ITA?",
+    "resposta_referencia": "Fluxograma de atividades, Descrição sucinta das atividades, Orientações do CPRI para apresentação de propostas de projeto",
+    "trecho_fonte": "Esse material apresenta orientações para as atividades de prospecção de projetos de Pesquisa, Desenvolvimento e Inovação (P,D&I) no ITA, contendo: - Fluxograma de atividades - Descrição sucinta das atividades - Orientações do CPRI para apresentação de propostas de projeto",
+    "documento": "IPR-PDI_Prospeccao.pdf",
+    "pagina": "1-3",
+    "id": "q18"
+  },
+  {
+    "tipo": "comparativa",
+    "pergunta": "Qual é a diferença entre o conteúdo do Fluxo de Atividades de Prospecção e a Descrição das Atividades de Prospecção?",
+    "resposta_referencia": "O Fluxo de Atividades de Prospecção refere-se ao fluxograma de atividades, enquanto a Descrição das Atividades de Prospecção é uma descrição sucinta das atividades.",
+    "trecho_fonte": "Esse material apresenta orientações para as atividades de prospecção de projetos de Pesquisa, Desenvolvimento e Inovação (P,D&I) no ITA, contendo: - Fluxograma de atividades - Descrição sucinta das atividades",
+    "documento": "IPR-PDI_Prospeccao.pdf",
+    "pagina": "1-3",
+    "id": "q19"
+  },
+  {
+    "tipo": "multi-hop",
+    "pergunta": "Quais são os componentes principais do documento de prospecção de projetos de P,D&I no ITA e quem fornece orientações para a apresentação de propostas?",
+    "resposta_referencia": "Os componentes principais são o Fluxograma de atividades, Descrição sucinta das atividades, e as orientações são fornecidas pelo CPRI.",
+    "trecho_fonte": "Esse material apresenta orientações para as atividades de prospecção de projetos de Pesquisa, Desenvolvimento e Inovação (P,D&I) no ITA, contendo: - Fluxograma de atividades - Descrição sucinta das atividades - Orientações do CPRI para apresentação de propostas de projeto",
+    "documento": "IPR-PDI_Prospeccao.pdf",
+    "pagina": "1-3",
+    "id": "q20"
+  },
+  {
+    "tipo": "factual",
+    "pergunta": "Qual é a proporção mínima de colaboradores vinculados ao ITA que a equipe executora deve ter?",
+    "resposta_referencia": "A equipe executora deve ser composta por no mínimo 2/3 (66%) de colaboradores vinculados ao ITA.",
+    "trecho_fonte": "A equipe executora deve ser composta por no mínimo 2/3 (66%) de colaboradores vinculados ao ITA",
+    "documento": "IPR-PDI_Prospeccao.pdf",
+    "pagina": "16-18",
+    "id": "q21"
+  },
+  {
+    "tipo": "procedimental",
+    "pergunta": "Quais são os passos para incluir um servidor de outra instituição no projeto?",
+    "resposta_referencia": "Servidor de outra instituição só pode participar com autorização formal da Instituição de origem. Deve-se consultar 'Orientações para Solicitação de Declarações, Manifestações e Cartas'.",
+    "trecho_fonte": "Servidor* de outra instituição, mesmo que do DCTA, só está autorizado a participar com autorização formal da Instituição de origem. ▪ Autorização: consultar “Orientações para Solicitação de Declarações, Manifestações e Cartas”",
+    "documento": "IPR-PDI_Prospeccao.pdf",
+    "pagina": "16-18",
+    "id": "q22"
+  },
+  {
+    "tipo": "comparativa",
+    "pergunta": "Qual é a diferença entre as despesas de locomoção e o serviço de buffet mencionados no projeto?",
+    "resposta_referencia": "Despesas de locomoção referem-se ao transporte entre parceiros e/ou fornecedores, enquanto o serviço de buffet é para organização de workshop com os parceiros do projeto.",
+    "trecho_fonte": "▪ Despesas de locomoção (entre parceiros e/ou fornecedores do projeto); ▪ Serviço de buffet para organização de workshop com os parceiros do projeto;",
+    "documento": "IPR-PDI_Prospeccao.pdf",
+    "pagina": "16-18",
+    "id": "q23"
+  },
+  {
+    "tipo": "multi-hop",
+    "pergunta": "Quais são os requisitos para a participação de alunos do ITA e de pesquisadores de fora do ITA no projeto?",
+    "resposta_referencia": "O projeto precisa incluir alunos de pós-graduação e/ou graduação do ITA. Pesquisadores de fora do ITA precisam de autorização formal da instituição de origem.",
+    "trecho_fonte": "Participação de alunos do ITA. Em função da missão do ITA, o projeto precisa incluir alunos de pós-graduação e/ou graduação na equipe. Participação de pesquisadores de fora do ITA. Servidor* de outra instituição, mesmo que do DCTA, só está autorizado a participar com autorização formal da Instituição de origem.",
+    "documento": "IPR-PDI_Prospeccao.pdf",
+    "pagina": "16-18",
+    "id": "q24"
+  },
+  {
+    "tipo": "factual",
+    "pergunta": "Qual é a data da Portaria GM-MD N° 1.112?",
+    "resposta_referencia": "04 de março de 2024",
+    "trecho_fonte": "1.4.12 Portaria GM-MD N° 1.112, de 04 de março de 2024",
+    "documento": "NPA-ITA-2024-070.pdf",
+    "pagina": "4-6",
+    "id": "q25"
+  },
+  {
+    "tipo": "procedimental",
+    "pergunta": "Quais são as etapas do processo de proposição e análise de projetos de CT&I do ITA?",
+    "resposta_referencia": "Identificação de oportunidade, discussão do escopo técnico e modelo de fomento, apresentação da proposta técnica, avaliação da proposta técnica, discussão da proposta técnica e financeira com IPR-PDI, revisão da proposta financeira com Fundação de Apoio.",
+    "trecho_fonte": "O processo tratado nesta Norma compreende uma sequência de etapas que aborda desde a identificação de oportunidade até a análise do projeto resultante",
+    "documento": "NPA-ITA-2024-070.pdf",
+    "pagina": "4-6",
+    "id": "q26"
+  },
+  {
+    "tipo": "comparativa",
+    "pergunta": "Qual é a diferença entre o escopo técnico e o modelo de fomento de um projeto?",
+    "resposta_referencia": "O escopo técnico inclui motivações, objetivo, estrutura analítica, entregáveis, infraestrutura, cronograma, equipe e resultados esperados. O modelo de fomento refere-se às formas de viabilização do projeto, seja por financiamento privado ou híbrido.",
+    "trecho_fonte": "Por escopo técnico de um projeto considera-se a organização dos seguintes componentes: motivações científica, tecnológica e econômica; objetivo; estrutura analítica [...] Por modelo de fomento de um projeto consideram-se as possíveis formas de viabilização do projeto, seja por financiamento oriundo exclusivamente do setor privado, ou pela sua composicão com recursos oriundos de agências públicas de fomento",
+    "documento": "NPA-ITA-2024-070.pdf",
+    "pagina": "4-6",
+    "id": "q27"
+  },
+  {
+    "tipo": "multi-hop",
+    "pergunta": "O que acontece se uma proposta técnica for aprovada mediante ajustes?",
+    "resposta_referencia": "O fluxo de proposição retorna às etapas descritas nos itens 2.1 ou 2.2, a depender da justificativa associada à necessidade de ajustes. Assim que ajustada, a proposta segue normalmente o fluxo a partir do ponto em que retornou.",
+    "trecho_fonte": "No caso de aprovação da proposta técnica mediante a ajustes, o fluxo de proposição retorna às etapas descritas nos itens 2.1 ou 2.2, a depender da justificativa associada à necessidade de ajustes. Assim que ajustada, a proposta segue normalmente o fluxo a partir do ponto em que retornou",
+    "documento": "NPA-ITA-2024-070.pdf",
+    "pagina": "4-6",
+    "id": "q28"
+  }
+]
